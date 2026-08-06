@@ -21,6 +21,8 @@ tags:
 
 *Configuring both service and product is all we need to do - queues are automatically assigned*
 
+---
+
 ## Human-Review Configuration
 
 - Human review location is attached to the human review task code
