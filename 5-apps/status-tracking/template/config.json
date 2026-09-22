@@ -1,0 +1,16 @@
+{
+  "fileKey": "6RWV822G6eneHwsBKK5y9V",
+  "nodes": {
+    "titleSlide": "2:10",
+    "slideFrame": "2:32",
+    "goalCard": "2:40",
+    "scopeCard": "2:44",
+    "stakeholdersCard": "2:49",
+    "timelineCard": "2:53",
+    "weekSlides": ["2:61", "2:118", "2:175", "2:232"]
+  },
+  "defaults": {
+    "status": "DRAFT",
+    "statusColor": { "r": 0.95, "g": 0.3, "b": 0.2 }
+  }
+}
