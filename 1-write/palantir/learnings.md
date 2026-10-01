@@ -18,3 +18,9 @@ Trying to get all the correct data is a multi-week endeavour with so many moving
 
 This work happens once for each area business problems, are there other problems in the same area that use similar data?
 
+---
+
+## Presentations
+
+Their presentations are made early. They put a lot of effort into planning, structuring, timelines, and clear goals from both sides.
+
