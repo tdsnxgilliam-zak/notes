@@ -24,3 +24,10 @@ This work happens once for each area business problems, are there other problems
 
 Their presentations are made early. They put a lot of effort into planning, structuring, timelines, and clear goals from both sides.
 
+
+---
+
+## Decisions
+
+**No decisions are made on their own** - they ensure that stakeholders agree with every decision that is made.
+
