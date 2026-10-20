@@ -4,7 +4,7 @@
 
 - [ ] PO Processing Integration
 - [ ] Find out where the Mac's at
-- [ ] **Reseller & Reseller contact in ur workflow**
+- [x] **Reseller & Reseller contact in ur workflow**
 - [ ] 
 
 
