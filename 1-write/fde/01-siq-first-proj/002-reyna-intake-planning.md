@@ -51,14 +51,14 @@
 
 **Questions**
 1. What working definition of autonomous distribution should the deck use? (Source: strategy session materials?)
-   **A:**
+   **A:** Deck included in chat
 2. Can we cite the strategy session or forum by name in the deck?
-   **A:**
+   **A:** Deck included in chat
 3. Which evaluation lenses do you want besides autonomous distribution?
    (e.g. value to the market, profit pool, certainty we can deliver, time to value)
-   **A:**
+   **A:** Focus on what the decks prioritize and what leaders would likely prioritize
 4. Should the readiness matrix be replaced with an "autonomous distribution fit" view?
-   **A:**
+   **A:** Yes
 
 ---
 
@@ -92,22 +92,22 @@
 
 **Questions**
 1. What is the official name of the venture? Confirm the co-lead's name (Dara?).
-   **A:**
+   **A:** Included in the deck
 2. Is it a **separate fourth option**, or does it **replace or merge with** the current Area 03 (Digital)?
-   **A:**
+   **A:** Merges
 3. What is the venture's one-line value proposition to the market, in Jonathan's words?
-   **A:**
+   **A:** in the deck
 4. Which numbers can we show? (Market size, number of 0–20-seat customers, target profit pool.)
    Or does it stay qualitative?
-   **A:**
+   **A:** Use only numbers provided in decks otherwise keep it qualitative
 5. What happened at the innovation board readout (Oct 27)? Any decisions or feedback to reflect?
-   **A:**
+   **A:** In the deck - moved to incubation
 6. What is the first FDE build for this option? The digital front end, a piece of the rail, or something else?
-   **A:**
+   **A:** That's part of the problem definition stage, not now
 7. How much of the venture can be shown to Reyna? Is anything confidential?
-   **A:**
+   **A:** All can be shown
 8. How do we show how it serves the rest of the business, not just micro SMB?
-   **A:**
+   **A:** It serves as a foundation of what sales team members do and automation that part of work - this then grows into other areas of the business
 
 ---
 
@@ -133,18 +133,18 @@
 
 **Questions**
 1. Can we name Jessica McDowell and the QBR on the slide, or keep it generic?
-   **A:**
+   **A:** Prolly not
 2. Is there a documented scope, timeline or target customer list for the digitally led sale?
-   **A:**
+   **A:** no
 3. What do we know about PartnerFirst's current capabilities and gaps? Who owns PartnerFirst?
-   **A:**
+   **A:** There's a separate group who owns it, the capabilities are easily viewed
 4. Is "80/20" a framing only, or do we have data on order or exception volumes?
-   **A:**
+   **A:** Framing only
 5. Agentic "Sales Rep": final name? Does it stay under Area 03, or do we now drop the placement debate?
-   **A:**
+   **A:** Stay under 3 but no 
 6. Agentic Customer Onboarding: in the meeting it was attributed to Mike's AI TPM team; the deck says Jude.
    Which is correct, and what can we say about its status?
-   **A:**
+   **A:** Jude is on that team
 
 ---
 
@@ -166,11 +166,11 @@
 
 **Questions**
 1. Is this sequencing now our recommendation, or just one view to present?
-   **A:**
+   **A:** Yes now the recommendation
 2. Should we show the sales/PM split (539 sales support vs 146 PM support) to back "solves half of Area 01"?
-   **A:**
+   **A:** No. Focus the scope
 3. Do we keep Area 01 as a standalone option at all?
-   **A:**
+   **A:** No get rid of it - keep it in the notes, though.
 
 ---
 
@@ -192,9 +192,9 @@
 
 **Questions**
 1. Which reseller-profitability levers did Nate mean by "2: not done at all" and "3: fragmented (HP SPIFF report)"?
-   **A:**
+   **A:** Not sure about this.
 2. For each Area 02 use case: profit pool, measurable outcome, or unmeasurable? Who would sponsor it?
-   **A:**
+   **A:** 
 3. Do we position "vendor decision rights" as a strategic goal in the deck, or keep it in the speaker notes?
    **A:**
 4. Does the SOC-Compliant Refresh value and why-TDS wording (from our earlier chat) go on the slide, or is it dropped?
@@ -202,6 +202,7 @@
 5. Keep Area 02 in the main flow, or move it to an appendix of "valuable, but not first"?
    **A:**
 
+Honestly just remove the above^^
 ---
 
 ## 6. Guardrails, legal and risk
@@ -217,11 +218,11 @@
 
 **Questions**
 1. Do you want a dedicated slide or just a panel on the Area 03 / venture slide?
-   **A:**
+   **A:** Yes - this should be the focus
 2. Is there a Legal contact or an existing AI policy to reference?
-   **A:**
+   **A:** No
 3. Should the "less risk than today's people-based process" argument go in the deck, or stay verbal?
-   **A:**
+   **A:** No - stay verbal
 
 ---
 
@@ -235,24 +236,24 @@
 
 **Questions**
 1. New cover title?
-   **A:**
+   **A:** Yes, basically the same but focus on 03
 2. What exact decision do we ask Reyna for? (Pick one option? Agree the operating model and rhythm? Both?)
-   **A:**
+   **A:** Agree on operating model and rhythm, express what areas of the business keep her up at night, and what should we focus on realted to this
 3. Should "Ideas from initial discovery with Nate & Adam" stay, or add Jonathan / the strategy session as sources?
-   **A:**
+   **A:** Remove that
 
 ---
 
 # Dependencies before we can finalise
 
-| # | Dependency | Owner | Blocks | Status |
-|---|---|---|---|---|
-| D1 | New venture materials (New Venture Board content). Nate asked Jonathan to send them to Zak & Ahmet | Jonathan | Section 2 | Not yet in your inbox |
-| D2 | Outcome or feedback from the innovation board readout (Oct 27) | Jonathan | Section 2 | Pending |
-| D3 | Working definition of "autonomous distribution" (strategy session materials) | Jonathan / strategy team | Section 1 | Definition "fuzzy" |
-| D4 | Scope of the "digitally led sale" (Jessica McDowell) and PartnerFirst capabilities and gaps | Nate / PartnerFirst owner | Section 3 | Unknown |
-| D5 | Agentic customer onboarding status and owner (Mike's AI TPM team / Jude) | Mike / Jude | Section 3 | To confirm |
-| D6 | Legal input on what agents may disclose | Legal (via Nate) | Section 6 | Not started |
-| D7 | Any data for sizing (micro SMB market, order/exception volumes, 80/20 split) | Jonathan / business ops | Sections 2, 3 | Unknown; may stay qualitative |
-| D8 | Deck deadline and presenter for the Reyna session (after Nate's Canada conversation) | Nate | Everything | To confirm |
-| D9 | Your call: modify the current deck or build a new one; Reyna-only or two variants | Zak | Everything | Open |
+| #   | Dependency                                                                                         | Owner                     | Blocks        | Status                        |
+| --- | -------------------------------------------------------------------------------------------------- | ------------------------- | ------------- | ----------------------------- |
+| D1  | New venture materials (New Venture Board content). Nate asked Jonathan to send them to Zak & Ahmet | Jonathan                  | Section 2     | Not yet in your inbox         |
+| D2  | Outcome or feedback from the innovation board readout (Oct 27)                                     | Jonathan                  | Section 2     | Pending                       |
+| D3  | Working definition of "autonomous distribution" (strategy session materials)                       | Jonathan / strategy team  | Section 1     | Definition "fuzzy"            |
+| D4  | Scope of the "digitally led sale" (Jessica McDowell) and PartnerFirst capabilities and gaps        | Nate / PartnerFirst owner | Section 3     | Unknown                       |
+| D5  | Agentic customer onboarding status and owner (Mike's AI TPM team / Jude)                           | Mike / Jude               | Section 3     | To confirm                    |
+| D6  | Legal input on what agents may disclose                                                            | Legal (via Nate)          | Section 6     | Not started                   |
+| D7  | Any data for sizing (micro SMB market, order/exception volumes, 80/20 split)                       | Jonathan / business ops   | Sections 2, 3 | Unknown; may stay qualitative |
+| D8  | Deck deadline and presenter for the Reyna session (after Nate's Canada conversation)               | Nate                      | Everything    | To confirm                    |
+| D9  | Your call: modify the current deck or build a new one; Reyna-only or two variants                  | Zak                       | Everything    | Open                          |
