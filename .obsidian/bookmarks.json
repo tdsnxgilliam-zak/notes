@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1757954999966,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1758115472913,
+          "path": "school-26-s1/db/w4/assignment1.md",
+          "title": "dba1"
+        }
+      ],
+      "title": "currenthw"
+    },
+    {
+      "type": "group",
+      "ctime": 1758217087061,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1758217096496,
+          "path": "setup_fixes/2025-09-14.md"
+        }
+      ],
+      "title": "setup"
+    }
+  ]
+}

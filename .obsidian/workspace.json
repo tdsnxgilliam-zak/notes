@@ -1,0 +1,299 @@
+{
+  "main": {
+    "id": "f9bcac6a1a5a494b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8b8ad6f7750f3fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a0e20d3fdc2023a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/daily/10-26-2026/10-27-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-27-2026"
+            }
+          },
+          {
+            "id": "1aefb4e7a1f3ca6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "game-showcase-iproj-final.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "game-showcase-iproj-final"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c5f4d855a227010",
+    "type": "split",
+    "children": [
+      {
+        "id": "80ccd4906b5d240f",
+        "type": "tabs",
+        "dimension": 70.06237006237006,
+        "children": [
+          {
+            "id": "59fa5a7f9af2f8ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cd710fb8975c5482",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "afbc35d2f02198de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "db10d1fb91e2b3b0",
+        "type": "tabs",
+        "dimension": 29.93762993762994,
+        "children": [
+          {
+            "id": "4e9a00619e7f4d83",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334
+  },
+  "right": {
+    "id": "b976ac93fcbecb71",
+    "type": "split",
+    "children": [
+      {
+        "id": "034e5fd705daa5ee",
+        "type": "tabs",
+        "dimension": 33.910034602076124,
+        "children": [
+          {
+            "id": "a3182ccde5243a20",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "bb24cc5425f8865d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Boost Report.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Boost Report"
+            }
+          },
+          {
+            "id": "f688e89abf9a4038",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "744d1847a6fe306c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Boost Report.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Boost Report"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ce5ee67a543fd5a4",
+        "type": "tabs",
+        "dimension": 33.102652825836216,
+        "children": [
+          {
+            "id": "0a71141301c04832",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hbc/interviews/sami.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of sami"
+            }
+          }
+        ]
+      },
+      {
+        "id": "955087796b69bae8",
+        "type": "tabs",
+        "dimension": 32.98731257208766,
+        "children": [
+          {
+            "id": "f357b4b284552d7a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "webpage-html-export:Export as HTML": false,
+      "switcher:Open quick switcher": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "bases:Create new base": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "9a0e20d3fdc2023a",
+  "lastOpenFiles": [
+    "4-configure/README.md",
+    "1-write/daily/10-26-2026/10-27-2026.md",
+    "4-configure",
+    "game-showcase-iproj-final.md",
+    "hbc/interviews/eric.md",
+    "hbc/interviews/template.md",
+    "hbc/interviews/sami.md",
+    "hbc/interviews/sami 2026-05-01 10.06.27.excalidraw.md",
+    "alkjshda.md",
+    "todos/2026-04-29.md",
+    "todos/2026-04-09.md",
+    "todos/2026-04-09 2026-04-10 11.25.27.excalidraw.md",
+    "bais/flask.md",
+    "bais/Pasted image 20260406144103.png",
+    "bais/Pasted image 20260406143442.png",
+    "bais/Pasted image 20260406143155.png",
+    "bais/Pasted image 20260406143124.png",
+    "bais/Pasted image 20260406143042.png",
+    "bais/Pasted image 20260406142916.png",
+    "bais/Pasted image 20260406142613.png",
+    "bais/Pasted image 20260406142240.png",
+    "Boost Report.canvas",
+    "development of plots.md",
+    "Untitled 4.md",
+    "Excalidraw/Untitled 4 2026-04-06 13.55.07.excalidraw.md",
+    "iproj/final-planning.md",
+    "Pasted image 20260406100957.png",
+    "td-interview.md",
+    "Excalidraw/development of plots 2026-03-31 10.07.20.excalidraw.md",
+    "Report Plot Specs.md",
+    "nvidia-nim.md",
+    "Pasted image 20260327114653.png",
+    "hbc/misc/report/hr-plot.md",
+    "hbc/misc/report/acc-plot.md",
+    "hbc/misc/report/acc-plot.excalidraw 2026-03-25 09.42.15.excalidraw.md",
+    "BAIS-personal-web.md",
+    "hbc/misc/report/data-search.md",
+    "hbc/misc/report",
+    "hbs/misc/report.md",
+    "hbs/misc",
+    "hbs",
+    "iproj/p2",
+    "Untitled.canvas",
+    "hbc/interviews",
+    "iproj/p1",
+    "bais/w3",
+    "prompts",
+    "hbc/dsmc",
+    "school-26-s1/db/Untitled.canvas"
+  ]
+}
