@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
+                "file": "1-write/daily/10-26-2026/10-28-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "002-reyna-intake-planning"
+              "title": "10-28-2026"
             }
           }
         ]
@@ -232,10 +232,15 @@
   },
   "active": "9a0e20d3fdc2023a",
   "lastOpenFiles": [
+    "1-write/daily/10-26-2026/10-26-2026.md",
+    "1-write/daily/10-19-2026/10-22-2026.md",
+    "1-write/daily/10-19-2026/10-23-2026.md",
+    "1-write/daily/10-26-2026/10-27-2026.md",
+    "1-write/daily/10-26-2026/10-28-2026.md",
+    "1-write/daily/10-19-2026/10-20-2026.md",
+    "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
     "4-configure/new-daily-note.sh",
     "4-configure/AGENTS.md",
-    "1-write/daily/10-26-2026/10-27-2026.md",
-    "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
     "4-configure/README.md",
     "4-configure",
     "game-showcase-iproj-final.md",
@@ -265,11 +270,7 @@
     "td-interview.md",
     "Excalidraw/development of plots 2026-03-31 10.07.20.excalidraw.md",
     "Report Plot Specs.md",
-    "nvidia-nim.md",
     "Pasted image 20260327114653.png",
-    "hbc/misc/report/hr-plot.md",
-    "hbc/misc/report/acc-plot.md",
-    "hbc/misc/report/acc-plot.excalidraw 2026-03-25 09.42.15.excalidraw.md",
     "hbc/misc/report",
     "hbs/misc",
     "hbs",
@@ -279,7 +280,6 @@
     "iproj/p1",
     "bais/w3",
     "prompts",
-    "hbc/dsmc",
     "school-26-s1/db/Untitled.canvas"
   ]
 }
