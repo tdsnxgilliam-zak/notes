@@ -1,3 +1,8 @@
+---
+tags:
+  - fde
+---
+
 # FDE Deck: Revision Checklist (after the Initial FDE Project Review, Oct 26)
 
 > How to use: answer each **A:** line (bullets, links or "skip" are fine).

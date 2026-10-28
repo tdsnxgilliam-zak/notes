@@ -1,5 +1,7 @@
 ---
 date: 2026-10-15
+tags:
+  - fde
 ---
 # Ideas from initial discovery with Nate and Adam 
 

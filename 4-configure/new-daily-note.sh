@@ -73,6 +73,11 @@ fi
 
 mkdir -p -- "$note_dir"
 cat > "$note_path" <<'EOF'
+---
+tags:
+  - daily
+---
+
 # Daily Note
 
 ## Meets

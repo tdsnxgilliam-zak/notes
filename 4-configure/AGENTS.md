@@ -32,6 +32,11 @@ contain `week.md` for a weekly note.
 Use the established template and heading order:
 
 ```markdown
+---
+tags:
+  - daily
+---
+
 # Daily Note
 
 ## Meets
@@ -48,7 +53,8 @@ note that already exists.
 
 ## Writing conventions
 
-- Keep notes in plain Markdown; existing daily notes do not use front matter.
+- Keep notes in plain Markdown. Daily notes use YAML front matter only for the
+  `daily` tag.
 - Preserve existing headings, links, and task state when editing a note.
 - Prefer clear descriptive filenames, typically lowercase with hyphens, except
   for daily-note dates and established project naming.
