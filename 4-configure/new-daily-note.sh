@@ -72,12 +72,9 @@ if [[ "$dry_run" == true ]]; then
 fi
 
 mkdir -p -- "$note_dir"
-cat > "$note_path" <<'EOF'
----
-tags:
-  - daily
----
-
+{
+  printf '%s\n' '---' 'tags:' '  - daily' "date: $target_date" '---' ''
+  cat <<'EOF'
 # Daily Note
 
 ## Meets
@@ -89,5 +86,6 @@ tags:
 ## Notes
 
 EOF
+} > "$note_path"
 
 printf 'Created: %s\n' "$note_path"

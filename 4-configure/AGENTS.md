@@ -35,6 +35,7 @@ Use the established template and heading order:
 ---
 tags:
   - daily
+date: YYYY-MM-DD
 ---
 
 # Daily Note
@@ -49,12 +50,13 @@ tags:
 Use `4-configure/new-daily-note.sh` to create a missing daily note. It uses
 today when no date is supplied, accepts a date argument for backfills or
 planning, calculates the correct Monday folder, and will not overwrite a
-note that already exists.
+note that already exists. New notes also receive a `date` field for the
+actual note date.
 
 ## Writing conventions
 
-- Keep notes in plain Markdown. Daily notes use YAML front matter only for the
-  `daily` tag.
+- Keep notes in plain Markdown. Daily notes use YAML front matter for the
+  `daily` tag and actual note date.
 - Preserve existing headings, links, and task state when editing a note.
 - Prefer clear descriptive filenames, typically lowercase with hyphens, except
   for daily-note dates and established project naming.

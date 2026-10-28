@@ -22,21 +22,20 @@
             }
           },
           {
-            "id": "ecec15f4612aed6e",
+            "id": "69820dbc570b0af5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/001-ideas.md",
+                "file": "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-ideas"
+              "title": "002-reyna-intake-planning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,11 +244,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ecec15f4612aed6e",
+  "active": "9a0e20d3fdc2023a",
   "lastOpenFiles": [
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
-    "1-write/fde/01-siq-first-proj/001-ideas.md",
+    "4-configure/github-ssh-new-account.md",
     "1-write/daily/10-26-2026/10-28-2026.md",
+    "1-write/fde/01-siq-first-proj/001-ideas.md",
     "1-write/daily/10-26-2026/10-26-2026.md",
     "1-write/daily/10-19-2026/10-22-2026.md",
     "1-write/daily/10-19-2026/10-23-2026.md",
@@ -284,7 +284,6 @@
     "iproj/final-planning.md",
     "Pasted image 20260406100957.png",
     "td-interview.md",
-    "Excalidraw/development of plots 2026-03-31 10.07.20.excalidraw.md",
     "Pasted image 20260327114653.png",
     "hbc/misc/report",
     "hbs/misc",
