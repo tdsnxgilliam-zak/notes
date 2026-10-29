@@ -194,13 +194,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hbc/interviews/sami.md",
+                "file": "1-write/daily/10-26-2026/10-29-2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sami"
+              "title": "Outline"
             }
           }
         ]
@@ -224,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
