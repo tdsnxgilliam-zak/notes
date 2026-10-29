@@ -330,3 +330,95 @@ Let me know if you have any other thoughts. Otherwise, thank you for all the hel
 sure thing, good work so far. thanks for sharing
 
 like 1
+
+# Agentic Digital deck: Jonathan's feedback (Oct 29)
+
+> Answer each **A:** (a word, a bullet or "skip" is fine).
+
+---
+
+## 1. Modular by design ("build once, reuse everywhere")
+**Jonathan:** Agents must be modular. The core of quote-to-cash and digital engagement is the same
+across the business: standardise the core, build unique features as add-ons. "If it can't scale
+across our business, we didn't think big enough… it's just a feature."
+
+**Proposed change:** Add "Modular / scalable" as a guiding principle on slide 6 (How it scales),
+with a small visual: shared core modules + vendor/market add-ons.
+
+1. Put the principle on slide 6, or give it its own spot on slide 2 (operating model)?
+   **A:** Slide 2 - mention on slide 6
+2. Quote Jonathan's "otherwise it's just a feature" line, or phrase it as our own principle?
+   **A:** phrase as our own
+3. Name example core modules (e.g. quote, order, backorder, notify, escalate), or keep it generic?
+   **A:** generic
+
+---
+
+## 2. Platform path: prove on new, then integrate with PartnerFirst
+**Jonathan:** Prove the agents on the new profit pool on the venture's platform, then integrate into
+PartnerFirst if they succeed. At scale, decide whether the new platform runs parallel to PartnerFirst,
+gets integrated into it, or replaces some of its components. Keep an eye on Core vs New
+infrastructure for compatibility and scale.
+
+**Proposed change:** Add a "prove → decide → scale" step to slide 6 with the three platform
+options (parallel / integrate / replace) and a "Core + New infra compatible" note.
+
+1. Show the three options as an open decision, or recommend one?
+   **A:** three options as possibilities - mostly leaning towards integrate
+2. Can we name the PartnerFirst owning team or the core infrastructure, or keep it generic?
+   **A:** generic
+
+---
+
+## 3. Hand-off after FDEs prove value
+**You:** Build to core-infra principles so traditional TPM/SE teams can take it over and scale it,
+freeing the FDEs to tackle new problems. The open question is who owns the product after that.
+
+**Proposed change:** Add a 5th step to the rhythm on slide 2: "Hand off → TPM/SE teams scale it".
+
+1. Add it as a step on slide 2, or as a note on slide 6?
+   **A:** slide 2
+2. Show "Product owner after proof: TBD" as an open question?
+   **A:** don't show
+
+---
+
+## 4. NEW SLIDE: Keys to success for the FDE model
+**Jonathan:** Tools, data rights, path to production, executive sponsorship. Also the build
+environment and good data hygiene, so models and agents can be trained continuously.
+
+**Proposed change:** New slide before Discussion: four cards (Tools & environment · Data rights &
+hygiene · Path to production · Executive sponsorship), each with what we need and its current status.
+
+1. What tools or environments exist today (e.g. Palantir/Foundry from the pricing POC, others)?
+   **A:** (Hopefully) - potentially foundry, CIS ecosystem
+2. Data rights: any known gaps (e.g. end-customer data, PartnerFirst data)?
+   **A:** Need unfiltered access to all data - if using Foundry need it all constantly pumping in there.
+3. Path to production: who approves going live (IT, architecture review, other)?
+   **A:** IT, arch, and others approve to production BUT WE MUST HAVE COMPLETE CONTROL OVER DEPLOYMENT TO TESTING ENVs WITH NO RESTRICTIONS
+4. Executive sponsor: name someone (Nate? Reyna?) or leave it as an ask?
+   **A:** Nate, Jonathan, Reyna (potentially) that force the changes if they provide value and can scale
+5. Should any of these become an ask of Reyna on the closing slide?
+   **A:** No
+6. What is Adam adding? Wait for his input, or draft now and mark it "with Adam"?
+   **A:** We will wait until this is finished and send it to him for review
+
+---
+
+## 5. Structure and length
+**Jonathan's frame:** Operating model · Strategic alignment · Initial priorities · Keys to success.
+He says the first three are mostly covered.
+
+1. The new slide takes the deck to 9 (your max was 8). Allow 9, or merge two slides
+   (e.g. fold guardrails into keys to success)?
+   **A:** allow more slides to get the content in here effectively while keeping it appealing to look at and easy to read.
+2. Relabel the section tags to match Jonathan's four headings?
+   **A:** no.
+
+---
+
+# Dependencies
+- [x] Confirm the current state of the deck file (PowerPoint lost the last save on Oct 27)
+- [x] Adam's input on keys to success
+- [o] Names of tools, environments and approvers for path to production (if we name them)
+- [o] Nate/Ahmet review after the update, before it goes back to Jonathan
