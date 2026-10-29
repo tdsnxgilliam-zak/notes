@@ -262,3 +262,71 @@ Honestly just remove the above^^
 | D7  | Any data for sizing (micro SMB market, order/exception volumes, 80/20 split)                       | Jonathan / business ops   | Sections 2, 3 | Unknown; may stay qualitative |
 | D8  | Deck deadline and presenter for the Reyna session (after Nate's Canada conversation)               | Nate                      | Everything    | To confirm                    |
 | D9  | Your call: modify the current deck or build a new one; Reyna-only or two variants                  | Zak                       | Everything    | Open                          |
+
+
+## Comments from Jonathan
+
+[9:45 AM] Schreier, Jonathan
+
+It's good. A couple things to consider - ensure the agents we build are modular. There is a platform build component to the SMB venture, so when we look ahead at scale in particular, there will be a point in time where we have to decide if the platform runs parallel to PartnerFirst, gets integrated, or replaces some of the components. We'll want to engineer the digital agents in your proposal in a way that can be proven on a new profit pool on a different platform, but be integrated to PartnerFirst if proven successful. Does that make sense?  [9:46 AM] Schreier, Jonathan
+
+Need an eye on our Core infrastructure and New infrastructure to ensure compatibility and scalability [9:50 AM] Schreier, Jonathan
+
+the other thing I would suggest adding is a slide about the conditions that would make FDE model successful. what is the environment you'll need to be able to build with a clear path to production and good underlying data hygiene that allows for continuous training of the models/agents [9:53 AM] Gilliam, Zak
+
+These are great points Jonathan, in your first comment:
+
+> We'll want to engineer the digital agents in your proposal in a way that can be proven on a new profit pool on a different platform, but be integrated to PartnerFirst if proven successful.
+
+Are you suggesting I touch on the long-term value of this solution and its integration into our core infra if its proven successful in SMB? [9:53 AM] Gilliam, Zak
+
+> **Schreier, Jonathan**
+> 
+> the other thing I would suggest adding is a slide about the conditions that would make FDE model successful. what is the environment you'll need to be able to build with a clear path to production and
+
+This is a great point, especially since I am touching on the FDE model here. I will work with Adam to add this point as well. [9:57 AM] Schreier, Jonathan
+
+> **Gilliam, Zak**
+> 
+> These are great points Jonathan, in your first comment: We'll want to engineer the digital agents in your proposal in a way that can be proven on a new profit pool on a different platform, but be in…
+
+Yes, my point is really focused on the mobility of the modules. Building once for the enterprise rather than 50+ times for each unique vendor or market or platform. Simplicity of each module is critical because I'm a firm believer that the core of each quote to cash or digital engagement activity is the same across our entire business. Unique features can be built as add ons, but core capabilities are standardized. Don't write or talk about that if you don't believe it though [10:00 AM] Gilliam, Zak
+
+Since the FDE model is supposed to disrupt and move fast, this seems a little counterintuitive. However, if the development is done in a way that closely aligns with core infra principles, then the service could be handed off to our traditional TPM/SE teams for integration into larger spaces - allowing the FDEs to tackle new business problems.
+
+So to this point:
+
+> Don't write or talk about that if you don't believe it though
+
+This should always be the goal - it is now a matter of who is going to own and further develop the product after the FDEs prove its worth. [10:02 AM] Schreier, Jonathan
+
+i don't think it's counterintuitive. disruption is critical but if it can't scale across our business we didn't think big enough [10:02 AM] Schreier, Jonathan
+
+it's just a feature at that point [10:02 AM] Schreier, Jonathan
+
+and not truly disruptive  [10:04 AM] Schreier, Jonathan
+
+my point is about not solving for one vendor or market, but ensuring what we build can cross everything [10:04 AM] Schreier, Jonathan
+
+- FDE Operating Model (i.e. strategic alignment, prioritized initiatives, quick iteration and feedback loop, clear path to production, executive sponsorship on the front end)
+- Strategic Alignment (i.e. Autonomous Distribution as the lens, Micro-SMB as the initial profit pool, modular/scalable as a core value)
+- Initial Priorities (i.e. Digital Agents for SMB profit pool with path to scaling across entire core business)
+- Keys to Success (i.e. Tools, Data rights, path to production, executive sponsorship)  [10:04 AM] Schreier, Jonathan
+
+i think the first three bullets are mostly covered in your work. i would add the fourth.  [10:06 AM] Gilliam, Zak
+
+> **Schreier, Jonathan**
+> 
+> i don't think it's counterintuitive. disruption is critical but if it can't scale across our business we didn't think big enough
+
+Great point here. This should be a guiding principle for the role, I will make sure to include this.
+
+> Keys to Success (i.e. Tools, Data rights, path to production, executive sponsorship)
+
+I will add this and the other point today, and send out to Nate/Ahmet for more feedback before I send to you again. [10:07 AM] Gilliam, Zak
+
+Let me know if you have any other thoughts. Otherwise, thank you for all the help, Jonathan. [10:08 AM] Schreier, Jonathan
+
+sure thing, good work so far. thanks for sharing
+
+like 1
