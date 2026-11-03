@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
+                "file": "1-write/daily/11-02-2026/11-02-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "002-reyna-intake-planning"
+              "title": "11-02-2026"
             }
           }
         ],
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
+                "file": "1-write/daily/11-02-2026/11-02-2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,9 +229,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export as HTML": false,
       "switcher:Open quick switcher": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -241,13 +239,17 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
   "active": "69820dbc570b0af5",
   "lastOpenFiles": [
-    "1-write/daily/10-26-2026/10-29-2026.md",
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
+    "1-write/daily/11-02-2026/11-02-2026.md",
+    "1-write/daily/11-02-2026",
+    "1-write/daily/10-26-2026/10-29-2026.md",
     "1-write/daily/10-26-2026/10-28-2026.md",
     "4-configure/github-ssh-new-account.md",
     "1-write/fde/01-siq-first-proj/001-ideas.md",
@@ -282,7 +284,6 @@
     "development of plots.md",
     "Untitled 4.md",
     "Excalidraw/Untitled 4 2026-04-06 13.55.07.excalidraw.md",
-    "iproj/final-planning.md",
     "Pasted image 20260406100957.png",
     "Pasted image 20260327114653.png",
     "hbc/misc/report",
@@ -293,7 +294,6 @@
     "hbc/interviews",
     "iproj/p1",
     "bais/w3",
-    "prompts",
     "school-26-s1/db/Untitled.canvas"
   ]
 }

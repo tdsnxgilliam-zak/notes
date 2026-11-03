@@ -422,3 +422,53 @@ He says the first three are mostly covered.
 - [x] Adam's input on keys to success
 - [o] Names of tools, environments and approvers for path to production (if we name them)
 - [o] Nate/Ahmet review after the update, before it goes back to Jonathan
+
+
+## Adam Notes
+
+**Questions Back**
+- Can you send the FDE operating model slides? That would help with visualization and content alignment.
+
+
+**Notes for v3**
+
+**Slide 6**
+> *Adam Small:* Agree with both. That said, it would be amazing if we aligned with a vendor who also sought to chase micro-SMB market share expansion. This might be trickier to zero in on, but perhaps collaborating with someone on Sergio's team might be fruitful - there may already be some vendor partnership conversations where this could dovetail nicely
+
+Include a short reference to this!
+
+**Slide 10**
+> *Adam Small:* love the content, but i would shift this to a left-to-right flow.
+> 
+> we talk about working from right-to-left as a mental model for starting where the problem is and working "backwards" to the technology, but that's only to break the paradigm of "left-to-right logical flow/workflow means we must start with the tech."
+> 
+> if we carry right-to-left through everything, I think it starts to get confusing. our logical thinking/reading/business processes/etc. still go left-to-right, even if our problem-solving goes counter-current.
+> 
+> I'm probably not articulating that well, so happy to try another approach if this has induced head-scratching rather than clarity.
+
+
+Include this visualization change
+
+**Slide 11**
+> *Adam Small:* I would make this slide #2 (after title)! get the ask up front, set the stage here in a clean/succinct way, then dive in.
+
+Great idea. Include.
+
+**Outlook Message**
+> *Adam Small: *
+> K, added a few comments to the slides.  Overall, I think it’s in great shape!  My only macro comment is that we may struggle to keep her attention for all of the slides - there’s a LOT of content, and unless it’s all exceptionally sticky for her, she may start to drift focus.  Along those lines, we need to go into the conversation with a few points of view on what we (FDE team) can start to work on (which this deck definitely establishes), but at the same time we need to be prepared to set _all_ of that aside and listen to her inputs on what’s top of mind for her.
+> 
+> As far as the meeting is concerned, yes - I would push the scheduling of that call.  I anticipate availability continuing to be a challenge, and if we don’t nail that down soon we’ll be talking after Thanksgiving.  🤣
+
+ *What to include in next revision*
+ - Move a lot of the text from the slides to the notes to make sure that I don't lose her attention. Only keep the most relevant text and make it more succinct.
+ - Make a dedicated pause slide early on to let her voice her concerns.
+
+
+Thanks,  
+Adam
+
+  
+
+Thanks,  
+Adam

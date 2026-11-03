@@ -41,20 +41,28 @@ for argument in "$@"; do
   esac
 done
 
-if [[ -z "$target_date" ]]; then
-  target_date=$(date +%F)
-else
-  supplied_date="$target_date"
-  if ! target_date=$(date -d "$supplied_date" +%F 2>/dev/null); then
-    printf 'Invalid date: %s\n' "$supplied_date" >&2
+target_date=${target_date:-$(date +%F)}
+
+# macOS uses BSD date, while Linux typically uses GNU date.
+if date -d 2000-01-01 +%F >/dev/null 2>&1; then
+  parsed_date=$(date -d "$target_date" +%F 2>/dev/null) || parsed_date=''
+  if [[ ! "$target_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ || "$parsed_date" != "$target_date" ]]; then
+    printf 'Invalid date: %s\n' "$target_date" >&2
     exit 2
   fi
+  day_of_week=$(date -d "$target_date" +%u)
+  week_folder=$(date -d "$target_date -$((day_of_week - 1)) days" +%m-%d-%Y)
+  note_name=$(date -d "$target_date" +%m-%d-%Y)
+else
+  parsed_date=$(date -j -f %Y-%m-%d "$target_date" +%F 2>/dev/null) || parsed_date=''
+  if [[ ! "$target_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ || "$parsed_date" != "$target_date" ]]; then
+    printf 'Invalid date: %s\n' "$target_date" >&2
+    exit 2
+  fi
+  day_of_week=$(date -j -f %Y-%m-%d "$target_date" +%u)
+  week_folder=$(date -j -f %Y-%m-%d -v-"$((day_of_week - 1))"d "$target_date" +%m-%d-%Y)
+  note_name=$(date -j -f %Y-%m-%d "$target_date" +%m-%d-%Y)
 fi
-
-day_of_week=$(date -d "$target_date" +%u)
-monday=$(date -d "$target_date -$((day_of_week - 1)) days" +%F)
-week_folder=$(date -d "$monday" +%m-%d-%Y)
-note_name=$(date -d "$target_date" +%m-%d-%Y)
 
 script_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 vault_root=$(cd -- "$script_dir/.." && pwd)
