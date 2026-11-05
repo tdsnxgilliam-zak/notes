@@ -11,14 +11,16 @@
             "id": "69820dbc570b0af5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "1-write/daily/11-02-2026/11-03-2026.md",
-                "mode": "source",
-                "source": false
+                "file": "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
+                "page": 1,
+                "left": -20,
+                "top": 796,
+                "zoom": 0.7647058823529411
               },
-              "icon": "lucide-file",
-              "title": "11-03-2026"
+              "icon": "lucide-file-text",
+              "title": "fde-01-regional-intake-001"
             }
           }
         ]
@@ -180,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/daily/11-02-2026/11-03-2026.md",
+                "file": "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -231,8 +233,8 @@
   },
   "active": "69820dbc570b0af5",
   "lastOpenFiles": [
-    "1-write/daily/11-02-2026/11-02-2026.md",
     "1-write/daily/11-02-2026/11-03-2026.md",
+    "1-write/daily/11-02-2026/11-02-2026.md",
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
     "1-write/daily/11-02-2026",
     "1-write/daily/10-26-2026/10-29-2026.md",
