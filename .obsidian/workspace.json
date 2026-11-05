@@ -11,16 +11,14 @@
             "id": "69820dbc570b0af5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
-                "page": 1,
-                "left": -20,
-                "top": 796,
-                "zoom": 0.7647058823529411
+                "file": "1-write/daily/11-02-2026/11-05-2026.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "fde-01-regional-intake-001"
+              "icon": "lucide-file",
+              "title": "11-05-2026"
             }
           }
         ]
@@ -182,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
+                "file": "1-write/daily/11-02-2026/11-05-2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -233,18 +231,20 @@
   },
   "active": "69820dbc570b0af5",
   "lastOpenFiles": [
-    "1-write/daily/11-02-2026/11-03-2026.md",
+    "1-write/daily/10-26-2026/10-28-2026.md",
+    "1-write/daily/10-26-2026/10-27-2026.md",
+    "1-write/daily/10-26-2026/10-26-2026.md",
     "1-write/daily/11-02-2026/11-02-2026.md",
+    "1-write/daily/11-02-2026/11-03-2026.md",
+    "1-write/daily/11-02-2026/11-05-2026.md",
+    "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
     "1-write/daily/11-02-2026",
     "1-write/daily/10-26-2026/10-29-2026.md",
-    "1-write/daily/10-26-2026/10-28-2026.md",
     "4-configure/github-ssh-new-account.md",
     "1-write/fde/01-siq-first-proj/001-ideas.md",
-    "1-write/daily/10-26-2026/10-26-2026.md",
     "1-write/daily/10-19-2026/10-22-2026.md",
     "1-write/daily/10-19-2026/10-23-2026.md",
-    "1-write/daily/10-26-2026/10-27-2026.md",
     "1-write/daily/10-19-2026/10-20-2026.md",
     "4-configure/new-daily-note.sh",
     "4-configure/AGENTS.md",
@@ -269,8 +269,6 @@
     "bais/Pasted image 20260406142613.png",
     "bais/Pasted image 20260406142240.png",
     "Boost Report.canvas",
-    "development of plots.md",
-    "Untitled 4.md",
     "Pasted image 20260406100957.png",
     "Pasted image 20260327114653.png",
     "hbc/misc/report",
@@ -280,7 +278,6 @@
     "Untitled.canvas",
     "hbc/interviews",
     "iproj/p1",
-    "bais/w3",
     "school-26-s1/db/Untitled.canvas"
   ]
 }
