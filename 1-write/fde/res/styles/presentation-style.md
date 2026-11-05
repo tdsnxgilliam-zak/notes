@@ -1,4 +1,4 @@
-# Style guide: "Tactical minimal" exec deck (TD SYNNEX)
+# Style guide: "Tactica lminimal" exec deck (TD SYNNEX)
 Source: *FDE First Project – Opportunity Areas* (Oct 2026)
 
 ## 1. Design principles
