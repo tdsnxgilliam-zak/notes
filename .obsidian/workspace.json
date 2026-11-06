@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -244,7 +245,7 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "59fa5a7f9af2f8ac",
+  "active": "979ad48b595d2f0c",
   "lastOpenFiles": [
     "1-write/daily/11-02-2026/11-05-2026.md",
     "1-write/fde/res/styles/presentation-style.md",
