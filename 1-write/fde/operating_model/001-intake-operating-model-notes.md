@@ -130,3 +130,60 @@ Smallest set that unblocks a "more defined" operating model:
 
 ## Notes / answers
 
+***Section 1: Scope & Mission***
+
+*What is in scope for an FDE pod?*
+All types of builds. Only high criticality issues. (Navy SEAL analogy here)
+
+*Agentic-Digital the scope or example?*
+Agentic digital is an **example** of a mission type.
+
+*What are the key IT outcomes?*
+The key IT outcomes are:
+1. Rapid production of high-criticality solutions
+2. Integration of existing processes, builds, and tools into holistic solutions
+3. Solutions co-designed and built from the source of the problem
+4. Solutions that are easily integrated into existing IT architecture
+
+*How does a pod's scope get set?*
+A pods scope is set **once the pod correctly defines the problem**. Pods are expected to define the problem in its entirety and figure out the solution with the highest value at the lowest effort.
+
+
+*How does the scope relate to existing IT roadmap?*
+FDEs are **NOT** expected to compete, replace, or add to IT roadmap solutions that are already being built by traditional teams. They are expected to find problems that are either:
+1. New territory that is high-criticality and high value
+2. Territory where there are various point solutions with no cohesion between them
+
+*What is the definition of "Done" for a mission?*
+"Done", for an FDE pod, is when the problem has been correctly defined and there is a solution built to transform the business process that is successfully tested. Once this happens - the FDE pod hands off the solution to the TPM/SE team in that space (which the solution has been codesigned with) and tackles the next mission.
+
+---
+
+***Section 2: "The Core" -- what we are preserving and protecting***
+
+*What is "the core"?*
+The core consists of the following:
+**Systems**:
+- CIS monolithic architecture
+- PFC
+**Data**:
+- All CIS monolithic data & architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

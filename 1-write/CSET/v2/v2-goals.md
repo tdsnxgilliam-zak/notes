@@ -18,5 +18,5 @@ Jay Denton (Nicko's boss) - 44 FTE - is this accurate?
 
 - Talk to Ann about how to get accurate reporting
 - Talk to Donna & Nicholas on what data would be the most important
-- Talkto Nicko about what reporting he would like most (**AFTER DONNA/NICHOLAS**)
+- Talk to Nicko about what reporting he would like most (**AFTER DONNA/NICHOLAS**)
 
