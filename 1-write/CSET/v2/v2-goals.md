@@ -16,7 +16,12 @@ Jay Denton (Nicko's boss) - 44 FTE - is this accurate?
 
 ## Requirements
 
-- Talk to Ann about how to get accurate reporting
-- Talk to Donna & Nicholas on what data would be the most important
-- Talk to Nicko about what reporting he would like most (**AFTER DONNA/NICHOLAS**)
+**How to move forward**
+- Reach out to Megan Marckel - she controls reporting access
+- Reach out to Travis (OOO ATT) - he builds reporting and knows what data is available
+*IN PARALLEL*
+- Cobuild the reporting metrics with Donna/Nicholas
+- Verify these reporting metrics and success criteria with Nicko
 
+
+## 

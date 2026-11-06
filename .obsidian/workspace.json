@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "3a6840bbfbe00360",
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334,
-    "collapsed": true
+    "width": 334
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -244,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+                "file": "1-write/CSET/v2/v2-goals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -294,13 +293,16 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "f40014c0d08012b6",
+  "active": "979ad48b595d2f0c",
   "lastOpenFiles": [
+    "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+    "1-write/CSET/v2/v2-goals.md",
+    "1-write/fde/01-siq-first-proj/003-initial-value-calculation.md",
+    "1-write/fde/01-siq-first-proj/004-capturing-micro-smb.md",
+    "1-write/fde/01-siq-first-proj/Untitled",
     "1-write/daily/11-02-2026/11-06-2026.md",
     "1-write/daily/11-02-2026/11-05-2026.md",
     "1-write/CSET/v1/deployment/001-Communication.md",
-    "1-write/CSET/v2/v2-goals.md",
-    "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/CSET/v2",
     "1-write/CSET/v1",
     "1-write/CSET/v1/deployment",
@@ -325,13 +327,10 @@
     "4-configure/new-daily-note.sh",
     "4-configure/AGENTS.md",
     "4-configure/README.md",
-    "4-configure",
     "game-showcase-iproj-final.md",
     "hbc/interviews/eric.md",
     "hbc/interviews/template.md",
     "hbc/interviews/sami.md",
-    "hbc/interviews/sami 2026-05-01 10.06.27.excalidraw.md",
-    "alkjshda.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
