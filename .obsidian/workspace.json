@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+                "file": "1-write/CSET/v2/v2-goals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-intake-operating-model-notes"
+              "title": "v2-goals"
             }
           },
           {
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/CSET/deployment/001-Communication.md",
+                "file": "1-write/CSET/v1/deployment/001-Communication.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/CSET/deployment/001-Communication.md",
+                "file": "1-write/CSET/v2/v2-goals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -258,11 +258,14 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "6ca31709b6040a0e",
+  "active": "979ad48b595d2f0c",
   "lastOpenFiles": [
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
-    "1-write/CSET/deployment/001-Communication.md",
-    "1-write/CSET/deployment",
+    "1-write/CSET/v2/v2-goals.md",
+    "1-write/CSET/v2",
+    "1-write/CSET/v1",
+    "1-write/CSET/v1/deployment/001-Communication.md",
+    "1-write/CSET/v1/deployment",
     "1-write/fde/01-siq-first-proj/003-reyna-intake-presentation.pptx",
     "1-write/fde/01-siq-first-proj/FDE First Project - Agentic Digital v3.pptx",
     "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
@@ -293,7 +296,6 @@
     "hbc/interviews/sami.md",
     "hbc/interviews/sami 2026-05-01 10.06.27.excalidraw.md",
     "alkjshda.md",
-    "todos/2026-04-29.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
@@ -305,8 +307,6 @@
     "Boost Report.canvas",
     "Pasted image 20260406100957.png",
     "Pasted image 20260327114653.png",
-    "hbc/misc/report",
-    "hbs/misc",
     "Untitled.canvas",
     "school-26-s1/db/Untitled.canvas"
   ]
