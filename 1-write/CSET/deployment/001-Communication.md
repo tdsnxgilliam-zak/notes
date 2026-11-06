@@ -10,7 +10,7 @@ Hi team,
 
 @He, Marvin, thank you for deploying all DOs.
 
-@QC PEOPLE - We have all components UAT deployed and have updated `Planned UAT Date` and `Planned Deploy Date` in the NDP Plan.
+@Lu, Lily @Wang, William - We have all components UAT deployed and have updated `Planned UAT Date` and `Planned Deploy Date` in the NDP Plan.
 
 We need you to update `Ready for QC Date`, `QC Plan Start Date`, and `QC Plan Approve Date` in order to move the NDP to `Submitted` status. 
 
