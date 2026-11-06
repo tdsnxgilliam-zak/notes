@@ -16,6 +16,11 @@ Jay Denton (Nicko's boss) - 44 FTE - is this accurate?
 
 ## Requirements
 
+**What do we want from the platform?**
+- Provide the business with an overview of the value the system is providing
+- Make the data available to me locally or within a protected environment
+- Have separate views for the business and for myself
+
 **How to move forward**
 - Reach out to Megan Marckel - she controls reporting access
 - Reach out to Travis (OOO ATT) - he builds reporting and knows what data is available
@@ -24,4 +29,5 @@ Jay Denton (Nicko's boss) - 44 FTE - is this accurate?
 - Verify these reporting metrics and success criteria with Nicko
 
 
-## 
+
+
