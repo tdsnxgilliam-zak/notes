@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/CSET/v2/v2-goals.md",
+                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -307,12 +307,12 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "93cc7759ac1077ea",
+  "active": "979ad48b595d2f0c",
   "lastOpenFiles": [
+    "1-write/CSET/v2/v2-goals.md",
     "1-write/CSET/v2/data-planning/001-access-to-data.md",
     "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
     "1-write/CSET/v2/data-planning",
-    "1-write/CSET/v2/v2-goals.md",
     "1-write/CSET/v2/codesign",
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/fde/01-siq-first-proj/003-initial-value-calculation.md",
