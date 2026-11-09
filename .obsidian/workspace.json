@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "f3dc55243c4405e2",
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -275,7 +275,7 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "ffc7519ae6aa34a8",
+  "active": "67d7f1125230c34e",
   "lastOpenFiles": [
     "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
     "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",

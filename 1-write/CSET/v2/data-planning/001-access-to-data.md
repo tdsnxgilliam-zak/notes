@@ -141,10 +141,20 @@ CloudBeaver is a separate server product with a [GraphQL SQL execution API](http
 **Candidate application path:**  
 **Unknowns / risks:**
 
-| Action | Owner | Target date | Status / decision |
-| --- | --- | --- | --- |
-| Confirm source, schema documentation and existing reports | | | |
-| Confirm read-only discovery access and environment | | | |
-| Confirm AI, metadata and result-sharing permissions | | | |
-| Check MCP feature and exposed tools in installed edition | | | |
-| Identify future application integration owner and path | | | |
+| Action                                                    | Owner | Target date | Status / decision |
+| --------------------------------------------------------- | ----- | ----------- | ----------------- |
+| Confirm source, schema documentation and existing reports |       |             |                   |
+| Confirm read-only discovery access and environment        |       |             |                   |
+| Confirm AI, metadata and result-sharing permissions       |       |             |                   |
+| Check MCP feature and exposed tools in installed edition  |       |             |                   |
+| Identify future application integration owner and path    |       |             |                   |
+
+
+## TODO 
+
+- [ ] email: bigdataadmin@tdsynnex.com
+- [ ] Rick Wang might know the direct integration surface
+	- [ ] Klay Hu
+	- [ ] 
+
+---
