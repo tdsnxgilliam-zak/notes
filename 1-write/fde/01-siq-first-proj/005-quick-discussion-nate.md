@@ -13,3 +13,31 @@
 2. **Develop a bounded candidate.** Describe the problem, intended users, scope, integration opportunities, dependencies and what the pod could demonstrate by January. Identify what would be deferred or require capacity from another team.
 3. **Understand the platform timeline.** Ask the platform decision owner when a decision is expected, what milestones or dependencies could affect that timing, and when the pod can expect enough direction to plan its work.
 4. **Agree measurement and cadence.** Define a baseline, candidate outcome and guardrail measures, sources, owner and reporting rhythm. Confirm the template's suggested sponsor touchpoints and the day-to-day contact.
+
+- [ ] Talk to Anthony Lai about how we are defining the baseline
+- [ ] Talk to Adam on alternatives to meeting updates 
+- [ ] Send Nate an email with asking for access to Vertica, Psybase, and MySQL
+
+Vertica is a major piece of OLAP - psybase and mysql are big pieces of OLAP 
+
+Go with Vertica
+
+**operating model -- broader**
+
+- Using our group as a change catalyst 
+
+- FDEs driving new profit pools - sitting alongside the larger group 
+	- Congruent to core vs. explore
+
+- Reyna is big on driving digital enablement - connected into the sales organization
+	- Make it a more seemless experience
+	- enable that transformation
+
+- CIS MCP - democratizing innovation
+
+- If CIS is the core -  value in that (through digital and ERP) - CDP is a part of this ecosystem
+	- What can we do with this?
+	- What does this allow for?
+	- What do we need to protect?
+	- Trying to pull it all closer to CIS and speak to the value on that
+

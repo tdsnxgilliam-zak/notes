@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
+                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
+                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
+                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -275,13 +275,13 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "67d7f1125230c34e",
+  "active": "12c9ac8884225202",
   "lastOpenFiles": [
+    "1-write/CSET/v2/data-planning/001-access-to-data.md",
     "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
     "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
     "1-write/daily/11-09-2026/11-09-2026.md",
     "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
-    "1-write/CSET/v2/data-planning/001-access-to-data.md",
     "1-write/CSET/v2/v2-goals.md",
     "1-write/daily/11-02-2026/11-06-2026.md",
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
