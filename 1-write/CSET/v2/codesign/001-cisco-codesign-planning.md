@@ -30,7 +30,7 @@ This is a working conversation with people who already know the project and each
 > “With email triage moving into production, I want us to start shaping what comes next together. This is my main focus through the end of Q4 and Q1. I'd love your perspective on what the business needs to see and decide, what already exists, and how we can build something useful together. Today is about setting direction; we can get more detailed over the next couple of sessions.”
 
 - Is there anything important about the current transition or your priorities that should shape this conversation?
-	- Nothing par
+	- Nothing particularly important - they are takign 10 mailboxes live now and have a longer list ready to go in the next iteration.
 - Confirm the intended outcome and invite them to adjust the agenda.
 
 ### 5–15 min | Start with the decisions

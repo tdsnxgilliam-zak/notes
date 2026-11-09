@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -310,10 +311,10 @@
   },
   "active": "f40014c0d08012b6",
   "lastOpenFiles": [
-    "1-write/CSET/v2/v2-goals.md",
-    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
-    "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
     "1-write/daily/11-09-2026/11-09-2026.md",
+    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
+    "1-write/CSET/v2/v2-goals.md",
+    "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/daily/10-26-2026/10-28-2026.md",
     "1-write/daily/10-26-2026/10-27-2026.md",
