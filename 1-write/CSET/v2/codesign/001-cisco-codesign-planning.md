@@ -1,101 +1,121 @@
-# Cisco CSET V2: co-design kickoff
+---
+tags:
+  - cisco
+  - request-central
+quarter: Q1
+FY: "27"
+contacts:
+  - Ahearn, Nicholas
+  - March, Donna
+---
+
+# Cisco CSET V2: discovery kickoff
 
 **Participants:** Donna, Nicholas, and me  
 **Length:** 60 minutes  
-**Working context:** Email triage, a critical dependency for this work, is moving into production now. V2 is my main priority for the end of Q4 and Q1.
+**Cadence:** First conversation in a proposed weekly working series through the quarter
 
-## Purpose
+## Why meet
 
-Start designing together how we will understand and improve the process once email triage is running. Align on the decisions the business needs to make, what evidence would support them, and how we will turn that into a practical reporting, SLA, and tracking build spec for Nicko.
+Email triage is moving into production, giving us a chance to learn from the process as people use it. V2 is my main priority through the end of Q4 and Q1. The [V2 goals](../v2-goals.md) point toward understanding and communicating value, measuring success, and using evidence to guide what we build next.
 
-This is a working conversation with people who already know the project and each other. The aim is to leave with a direction and a way to work together, not a finished dashboard or a fixed list of metrics.
+Start by understanding the business and the work: what happens today, where people struggle to see or act on what is happening, and what they need as triage expands. Donna and Nicholas know the organization and can help us find the right people and examples. We have a quarter to investigate and co-design; this first hour is for listening and choosing where to look next.
 
-### Outcomes for this hour
+**Context already noted:** Ten mailboxes are going live now, with a longer list ready for a later iteration. Confirm the current status in conversation.
 
-- A shared description of the most important business decisions and unanswered questions.
-- A short, **provisional** set of measures to investigate, including what production triage needs us to observe now.
-- An understanding of what existing reporting already provides and where a new view could add value.
-- Agreement on the next 1–2 working sessions, near-term owners, and how we will validate success criteria with Nicko.
+## What a useful first meeting produces
+
+- A shared, rough picture of how work flows today and who is involved.
+- One or two business questions or pain points worth investigating, in Donna and Nicholas's words.
+- A real example, existing artifact, or person who can help us understand the work more closely.
+- Agreement on what to explore next week and how to use the weekly time.
+
+We do not need to select a solution, agree on metrics, or define the full scope in this meeting.
 
 ## Before the meeting
 
-- Bring a brief, current update on the triage production transition: what is going live, known unknowns, and any information already captured. Avoid implying a release date or capabilities that have not been confirmed.
-- Bring a simple example of an email progressing through triage and Request Central, if available, and any existing reports or screenshots readily at hand. No prework is required from Donna or Nicholas.
-- Have a shared note open with the capture table below. Use the questions as prompts, not a checklist.
+- Bring a short, current triage update and an open shared note. No preparation is required from Donna or Nicholas.
+- Be ready to ask for a real example or a future walkthrough with someone doing the work. If a report or process artifact is readily available, invite them to show it; don't require one.
+- Listen for differences between what is observed, what is assumed, and what needs to be checked. Ask both Donna and Nicholas for their perspectives.
 
-## 60-minute agenda
+## Conversation guide — 60 minutes
 
-### 0–5 min | Reconnect and frame the work
+### 0–5 min | Reconnect and set the intention
 
-> “With email triage moving into production, I want us to start shaping what comes next together. This is my main focus through the end of Q4 and Q1. I'd love your perspective on what the business needs to see and decide, what already exists, and how we can build something useful together. Today is about setting direction; we can get more detailed over the next couple of sessions.”
+> “As triage moves into production, I want to spend time with you both understanding how the process works, what the business needs to know, and where we can make it better. This is my main focus through the end of Q4 and Q1, so I thought we could meet weekly and work through it together. Today I'd love to start with your perspective and figure out where I should dig in first.”
 
-- Is there anything important about the current transition or your priorities that should shape this conversation?
-	- Nothing particularly important - they are takign 10 mailboxes live now and have a longer list ready to go in the next iteration.
-- Confirm the intended outcome and invite them to adjust the agenda.
+- Does that sound like a useful way to spend this time? What would you want from it?
+- Confirm the current production transition and anything that makes this moment important to them.
 
-### 5–15 min | Start with the decisions
+### 5–20 min | Understand the work today
 
-Ask each person for their perspective before converging:
+Invite them to walk through a typical piece of work, in their own terms. Use a real recent example if one comes to mind.
 
-- Once triage is running, what will you and the business most need to know? What decision or action would that information enable?
-- Where is visibility missing today? Who feels that gap: operational teams, business leaders, or someone else?
-- Looking toward new mailboxes, what would you need to see before deciding what to improve or expand next?
+- When an email arrives, what happens from there? Where do people and systems get involved?
+- Who is responsible at each important handoff? What happens when an email needs attention or doesn't follow the usual path?
+- What is changing as triage goes live, and what stays the same?
+- Where does the process become difficult, slow, unclear, or dependent on someone checking manually?
 
-**Capture:** Two or three priority questions, the people making the decisions, and what they would do differently with better information.
+**Listen for:** People, handoffs, tools, exceptions and points to observe firsthand. Sketch the flow together; mark unknowns rather than filling them in.
 
-### 15–30 min | Follow one example and identify signals
+### 20–35 min | Find the business problems
 
-Walk through one representative email from arrival and triage into the Request Central process, using an actual example if one is available. Ask where the team can see what happened, where a handoff or exception might be missed, and what they would want to know if something went wrong.
+- What is hardest for the team or the business to understand about this work today? Can you think of a recent example?
+- When that happens, who is affected and what do they have to do? How often does it come up?
+- What questions do you get from the business that are hard to answer? How do you answer them today?
+- As more mailboxes come on, what are you most curious or concerned about?
 
-- Which signals would show whether triage is working and where human follow-up is needed?
-- What would help explain workload, timeliness or SLA performance, and business value? Which of those matter most now?
-- What would make a measure trustworthy: its definition, comparison period, exclusions, or a baseline?
-- What should we start capturing as production begins, even if the reporting comes later? What can be learned later?
+Ask follow-ups such as “Can you show me?” and “What happened next?” Let them introduce priorities before offering examples of possible reporting or metrics.
 
-Possible starting points to discuss—not agreed requirements: volume and disposition, exceptions or corrections, elapsed time against an agreed SLA, and a defensible estimate of time saved. Separate system activity from business outcomes; don't assume time saved or FTE impact without a baseline and validation.
+**Capture:** The problem in their words, who experiences it, its consequence, and an example. Ask what feels most important to investigate first, without forcing a final priority.
 
-**Capture:** Choose 2–3 candidate measures or signals and the decision each supports. Mark definitions, baselines, feasibility, and targets as open until verified.
+### 35–45 min | Understand decisions and what's already available
 
-### 30–42 min | Existing tools and audiences
+- When you need to know how things are going, what do you look at or who do you ask?
+- What decisions or actions depend on that information? Who makes them?
+- What existing reports, tools, or workarounds are helpful? Where do they leave questions unanswered?
+- Who else sees this process differently or works closest to the problem? Could I spend time with them or watch the work?
 
-- What reports or tracking tools do you already rely on? What do they answer well, and where do they fall short?
-- Where should we reuse or extend an existing capability? What would a new capability need to add to justify itself?
-- What would business or executive users need at a glance, and what detail would help me investigate, improve the system, and guide the next features?
-- Are there examples or owners of existing reports we should speak with?
+**Capture:** Existing sources and their owners, decisions they support, and people or examples to follow up with. Availability and completeness of data are questions to verify later.
 
-**Capture:** Existing assets and gaps, plus an initial distinction between business and developer views. Treat executive needs as a question to validate, not a settled design.
+### 45–55 min | Choose where to learn next
 
-### 42–52 min | Scope and co-design path
+Reflect back the main themes and ask:
 
-- Of the questions and measures we listed, which are essential for an initial useful version and which can wait?
-- What decisions or dependencies could change that scope? What needs to be learned while triage enters production?
-- Who else needs to inform the design, and when should we bring Nicko in to verify the metrics and success criteria?
-- Does the proposed sequence below fit your availability and how you like to work?
+- Did I understand that correctly? What did I miss?
+- Which question or part of the process would be most valuable to investigate first, and why?
+- What would be the best next step: a walkthrough with an operator, looking at a real example or report, or speaking with another stakeholder?
+- Is there anything we need to pay attention to now as triage enters production, even if we explore it in more depth later?
 
-**Capture:** A tentative first-version focus, deferred ideas, key dependencies, and agreement on the next session's purpose.
+**Capture:** A tentative discovery focus and one concrete next step. Record other ideas for later rather than treating them as commitments.
 
-### 52–60 min | Reflect and commit
+### 55–60 min | Agree how to work together
 
-Read back the priority questions, candidate measures, and first-version focus. Ask Donna and Nicholas what is missing or misrepresented. Agree on owners and dates for the next actions, and book or identify a window for the next session. Explicitly flag unresolved items for follow-up.
+- Agree what each person will do before the next meeting and when.
+- Confirm a weekly rhythm and what would make the sessions useful for Donna and Nicholas.
+- Set a purpose for the next meeting, based on what surfaced today.
 
-## Working capture
+## Notes to capture during the meeting
 
-| Decision or question | Audience / action | Candidate signal or existing report | Definition, baseline or data question | Priority / next step |
-| --- | --- | --- | --- | --- |
-| | | | | |
-| | | | | |
-| | | | | |
+| Observation or question | Who is affected / what happens | Example or evidence to find | Follow-up and owner |
+| --- | --- | --- | --- |
+| | | | |
+| | | | |
+| | | | |
 
-**First-version focus:**  
-**Ideas to revisit:**  
-**Open questions / assumptions:**  
-**Agreements and actions (owner + date):**
+**Rough process / handoffs:**  
+**Their most important question or pain point:**  
+**Assumptions to check:**  
+**People, tools or artifacts to follow up on:**  
+**Next week's focus and actions:**
 
-## Proposed path after kickoff
+## Direction for the weekly work
 
-1. **Session 2 — define and explore.** Refine the priority measures, definitions and baselines; review existing reporting and sketch the business and developer views around real decisions. Check data feasibility and access findings.
-2. **Session 3, if needed — converge.** Review a lightweight draft, resolve priorities and open questions, and agree what belongs in the initial build spec.
-3. **Validate with Nicko.** Review the proposed metrics, success criteria, scope and outstanding tradeoffs; incorporate feedback before treating them as agreed.
-4. **Prepare the build spec.** Capture audiences and decisions, prioritized requirements, metric definitions and data sources, access needs, acceptance criteria, dependencies, and unresolved decisions. Set timing with stakeholders rather than assuming dates.
+Let discovery determine the pace and order. An initial path could be:
 
-In parallel, I will follow up with Megan Marckel about reporting access and Travis about existing reporting and available data, as identified in the [V2 goals](../v2-goals.md). Explore whether data can be available locally or in a protected environment, with access appropriate to each audience. These conversations inform feasibility; they do not need to hold up the co-design discussion.
+1. **Understand:** Observe the work with people closest to it, follow real examples and learn where current information comes from.
+2. **Define:** Bring findings back to Donna and Nicholas; agree which business problem and decisions matter most, who is affected, and what success could look like.
+3. **Explore and test:** Examine existing reporting and data, co-design possible measures and views, and test small examples with the people who would use them. Learn from production triage as evidence becomes available.
+4. **Converge and validate:** Refine the most useful approach, verify metrics and success criteria with Nicko, and translate the learning into a build spec when there is enough evidence.
+
+In parallel, follow up with Megan Marckel about reporting access and Travis about existing reporting and available data, as identified in the V2 goals. Explore access locally or in a protected environment and the different business and developer needs as discovery progresses. These are avenues to investigate, not assumptions about what is already available or what must be built.
