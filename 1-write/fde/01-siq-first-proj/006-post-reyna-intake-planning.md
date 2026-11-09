@@ -41,3 +41,26 @@ The intake template asks for a summary within 48 hours, a short recap to the pre
 **[Decision maker]** needs to **[make a specific decision]** for **[defined users and process]**, which is difficult today because **[evidence-backed gap across the process, information or existing solutions]**. Success by mid-January looks like **[measurable outcome and evidence]**, while preserving **[agreed core and experience guardrails]**.
 
 The blanks are intentional: the available discussion notes do not establish these details. Use the next conversation to fill them in before selecting or locking a capstone.
+
+## Discussion summary
+
+The discussion highlighted the need for a clearer FDE operating model: define the IT outcomes and scope up front, then show how work will deliver measurable results without eroding the existing core. This includes identifying what must be preserved, how capacity will be created, and how success will be measured and reported.
+
+Solutions should integrate existing capabilities wherever possible and support a seamless access, partner and selling experience. We are moving forward with scoping the agentic digital solution and will work with decision owners in that space to define the problem. In parallel, we will work with marketing on the best way to support capturing the micro-SMB market. The precise business problem, users and January success criteria remain to be confirmed.
+
+The platform decision is a dependency for planning. The next step is to understand its expected timeline and how that timing affects the pod; the choice itself sits with the appropriate decision makers. The notes also leave open which work should be integrated into the core, what may stand alone, and what “environment as the source of truth” means in practice.
+
+## Draft note to Reyna
+
+**Subject:** Follow-up on our FDE discussion
+
+Hi Reyna,
+
+Thank you for the discussion. My main takeaway is that we need a more defined operating model: clear outcomes and scope, a way to measure and report success, and a plan that protects what is already working.
+
+We are moving forward with scoping the agentic digital solution and will work with the decision owners in that space to define the problem. In parallel, we will work with marketing on the best way to support capturing the micro-SMB market. We will also clarify how to connect existing capabilities into a seamless experience, what needs to be preserved in the core, and what capacity the work would require.
+
+As we refine the scope, it would be helpful to understand the expected timeline for the platform decision so we can plan around it. We will bring back a more concrete view of the proposed work and success measures for discussion.
+
+Thanks,
+Zak

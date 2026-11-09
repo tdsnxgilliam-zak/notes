@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "006-post-reyna-intake-planning"
+              "title": "005-quick-discussion-nate"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "f3dc55243c4405e2",
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 70.06237006237006,
+        "dimension": 44.74605954465849,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -127,65 +127,13 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "cd710fb8975c5482",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "afbc35d2f02198de",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       },
       {
-        "id": "db10d1fb91e2b3b0",
+        "id": "8539c2149a0a2733",
         "type": "tabs",
-        "dimension": 29.93762993762994,
-        "children": [
-          {
-            "id": "4e9a00619e7f4d83",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 334
-  },
-  "right": {
-    "id": "b976ac93fcbecb71",
-    "type": "split",
-    "children": [
-      {
-        "id": "034e5fd705daa5ee",
-        "type": "tabs",
-        "dimension": 33.910034602076124,
+        "dimension": 27.23292469352014,
         "children": [
           {
             "id": "a3182ccde5243a20",
@@ -198,12 +146,70 @@
             }
           },
           {
+            "id": "f357b4b284552d7a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "db10d1fb91e2b3b0",
+        "type": "tabs",
+        "dimension": 28.021015761821367,
+        "children": [
+          {
+            "id": "4e9a00619e7f4d83",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "0a71141301c04832",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334
+  },
+  "right": {
+    "id": "b976ac93fcbecb71",
+    "type": "split",
+    "children": [
+      {
+        "id": "034e5fd705daa5ee",
+        "type": "tabs",
+        "children": [
+          {
             "id": "bb24cc5425f8865d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boost Report.canvas",
+                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +219,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Boost Report"
+              "title": "Backlinks"
             }
           },
           {
@@ -237,51 +243,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boost Report.canvas",
+                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Boost Report"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ce5ee67a543fd5a4",
-        "type": "tabs",
-        "dimension": 33.102652825836216,
-        "children": [
-          {
-            "id": "0a71141301c04832",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          }
-        ]
-      },
-      {
-        "id": "955087796b69bae8",
-        "type": "tabs",
-        "dimension": 32.98731257208766,
-        "children": [
-          {
-            "id": "f357b4b284552d7a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outgoing links"
             }
           }
         ]
@@ -308,14 +275,14 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "12c9ac8884225202",
+  "active": "ffc7519ae6aa34a8",
   "lastOpenFiles": [
     "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
-    "1-write/CSET/v2/data-planning/001-access-to-data.md",
     "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
-    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
-    "1-write/CSET/v2/v2-goals.md",
     "1-write/daily/11-09-2026/11-09-2026.md",
+    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
+    "1-write/CSET/v2/data-planning/001-access-to-data.md",
+    "1-write/CSET/v2/v2-goals.md",
     "1-write/daily/11-02-2026/11-06-2026.md",
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
     "1-write/CSET/v1/deployment/001-Communication.md",
