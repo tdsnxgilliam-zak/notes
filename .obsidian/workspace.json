@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/daily/11-02-2026/11-06-2026.md",
+                "file": "1-write/daily/10-26-2026/10-28-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-06-2026"
+              "title": "10-28-2026"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
+                "file": "1-write/daily/11-09-2026/11-09-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-access-to-data"
+              "title": "11-09-2026"
             }
           },
           {
@@ -309,8 +309,13 @@
   },
   "active": "979ad48b595d2f0c",
   "lastOpenFiles": [
-    "1-write/CSET/v2/v2-goals.md",
+    "1-write/daily/10-26-2026/10-28-2026.md",
+    "1-write/daily/10-26-2026/10-27-2026.md",
+    "1-write/daily/11-02-2026/11-06-2026.md",
+    "1-write/daily/11-09-2026/11-09-2026.md",
     "1-write/CSET/v2/data-planning/001-access-to-data.md",
+    "1-write/daily/11-09-2026",
+    "1-write/CSET/v2/v2-goals.md",
     "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
     "1-write/CSET/v2/data-planning",
     "1-write/CSET/v2/codesign",
@@ -318,7 +323,6 @@
     "1-write/fde/01-siq-first-proj/003-initial-value-calculation.md",
     "1-write/fde/01-siq-first-proj/004-capturing-micro-smb.md",
     "1-write/fde/01-siq-first-proj/Untitled",
-    "1-write/daily/11-02-2026/11-06-2026.md",
     "1-write/daily/11-02-2026/11-05-2026.md",
     "1-write/CSET/v1/deployment/001-Communication.md",
     "1-write/CSET/v2",
@@ -327,10 +331,7 @@
     "1-write/fde/01-siq-first-proj/003-reyna-intake-presentation.pptx",
     "1-write/fde/01-siq-first-proj/FDE First Project - Agentic Digital v3.pptx",
     "1-write/fde/01-siq-first-proj/fde-01-regional-intake-001.pdf",
-    "1-write/fde/operating_model",
     "1-write/fde/res/styles/presentation-style.md",
-    "1-write/daily/10-26-2026/10-28-2026.md",
-    "1-write/daily/10-26-2026/10-27-2026.md",
     "1-write/daily/10-26-2026/10-26-2026.md",
     "1-write/daily/11-02-2026/11-02-2026.md",
     "1-write/daily/11-02-2026/11-03-2026.md",
@@ -344,7 +345,6 @@
     "4-configure/AGENTS.md",
     "4-configure/README.md",
     "game-showcase-iproj-final.md",
-    "hbc/interviews/eric.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
