@@ -31,7 +31,7 @@ These themes suggest work on both the pod's operating model and a potential busi
 
 1. **Map the current state with the people doing the work.** Identify the affected users, process, existing solutions and handoffs. Document the core to protect and the experience that must remain seamless.
 2. **Develop a bounded candidate.** Describe the problem, intended users, scope, integration opportunities, dependencies and what the pod could demonstrate by January. Identify what would be deferred or require capacity from another team.
-3. **Frame the platform choice.** Identify the decision owner and compare feasible options using cost, integration, operating implications and the evidence needed to decide. Avoid treating technical feasibility alone as the decision.
+3. **Understand the platform timeline.** Ask the platform decision owner when a decision is expected, what milestones or dependencies could affect that timing, and when the pod can expect enough direction to plan its work.
 4. **Agree measurement and cadence.** Define a baseline, candidate outcome and guardrail measures, sources, owner and reporting rhythm. Confirm the template's suggested sponsor touchpoints and the day-to-day contact.
 
 The intake template asks for a summary within 48 hours, a short recap to the president, and a summary for Session 2; it also says capstone problems are locked in Session 3. Check the current program timing and whether those steps have already occurred before treating them as outstanding commitments.

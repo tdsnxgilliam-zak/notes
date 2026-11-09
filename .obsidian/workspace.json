@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
+                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "005-quick-discussion-nate"
+              "title": "006-post-reyna-intake-planning"
             }
           }
         ],
@@ -308,11 +308,11 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "67d7f1125230c34e",
+  "active": "12c9ac8884225202",
   "lastOpenFiles": [
     "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
-    "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
     "1-write/CSET/v2/data-planning/001-access-to-data.md",
+    "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
     "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
     "1-write/CSET/v2/v2-goals.md",
     "1-write/daily/11-09-2026/11-09-2026.md",
