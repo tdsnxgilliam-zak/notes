@@ -2,7 +2,7 @@
 
 ## Source and reading note
 
-The requested [October 6 daily note](../../daily/10-05-2026/10-06-2026.md) contains Cisco triage and Apple Silicon updates, but no Reyna discussion. The [November 6 daily note](../../daily/11-02-2026/11-06-2026.md) is labeled “Reyna” and contains the relevant discussion notes; this synthesis uses those notes as the likely intended source. The notes are fragmentary and do not consistently identify the speaker, so the themes below are discussion takeaways, not a verbatim transcript or a record of decisions. The [regional intake template](fde-01-regional-intake-001.pdf) supplies the questions and expected follow-up, not answers from Reyna.
+The requested [October 6 daily note](10-06-2026.md) contains Cisco triage and Apple Silicon updates, but no Reyna discussion. The [November 6 daily note](11-06-2026.md) is labeled “Reyna” and contains the relevant discussion notes; this synthesis uses those notes as the likely intended source. The notes are fragmentary and do not consistently identify the speaker, so the themes below are discussion takeaways, not a verbatim transcript or a record of decisions. The [regional intake template](fde-01-regional-intake-001.pdf) supplies the questions and expected follow-up, not answers from Reyna.
 
 ## What surfaced
 

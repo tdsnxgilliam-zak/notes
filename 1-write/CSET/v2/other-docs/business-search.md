@@ -1,98 +1,38 @@
-# Search: business rules and success conditions
+# Finding an existing Request Central request
 
-This document describes the Cisco email triage workflow's two business searches: finding an existing Request Central (RC) request, and finding the customer/reseller account for a new request. It records the behavior in the current `src/spec-06` sources. A successful API call, a successful business match, and a successful RC write are separate events.
+When a Cisco email arrives, the workflow looks for an existing Request Central (RC) request so the team can continue work in the right place. Finding a possible match is only the first step: the request still needs to be checked before it is updated.
 
-## 1. What “successful search” means
+## When is a search successful?
 
-| Search              | Successful business result                                                                                                                      | Valid miss                                                         | Failure or unsafe result                                                                                          |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
-| Existing RC request | A usable `requestNo` is selected and the workflow records `unique`; the update path can bind to that request.                                   | The search completes with no usable request.                       | Transport/service error, unavailable search, ambiguous candidates, or a response without a usable request number. |
-| Customer/reseller   | An external customer domain and company context identify a returned account, with a usable `masterCustomerAcct` or permitted `custNo` fallback. | No returned company passes the domain and business-context checks. | An unrelated company, a longer domain that merely contains the searched domain, or an empty/zero account number.  |
+A search is successful when it identifies one existing request **and** the request's details fit the email. The strongest evidence is an RC request number. Other details can help confirm the match:
 
-**A search match alone does not mean the email was processed successfully.** A request update still needs its note/files/status work and terminal gates; a new request still needs its create and persistence work.
+- The customer and the work being requested are the same.
+- The subject or request name describes the same issue or opportunity.
+- Related PO, quote, deal, or order numbers agree, when available.
+- The timing makes sense for the ongoing conversation.
 
-## 2. Existing RC request search
+A similar title by itself is not enough. If several requests could fit, the team should review them before choosing one. Finding a request also does not mean the update has been completed.
 
-### Business purpose and entry points
+## Why might a search miss or need review?
 
-- **Before creating:** `search_existing_request` checks for an existing ticket. A `unique` result rewrites the handoff to update that ticket and sets `skipSearch`; a `not_found` result lets the create path continue. `ambiguous` sets `request_ambiguous` and needs review.
-- **On an update:** `rc_search_request` checks the dispatched identifiers. A `unique` result passes the unique gate. `none` means no candidate; `ambiguous` means multiple candidates; `failed` sets `submitFailReason=search_failed`.
-- **In the update agent:** when no ticket is already bound, the agent is instructed to search request names in order, read the returned request fields, and stop after all attempts miss. A known binding (`skipSearch`) suppresses another search.
-- **After a create agent search:** a unique RC hit may redirect to update if creation has not already succeeded. If creation already succeeded, the workflow keeps the created ticket.
-
-### Search scope and inputs
-
-Script calls use `POST /api/rcs/internal/request/search` through the `request-central` service. They add `vendorNos=[64956]` and `productBrandNos=[6,7,8,24]`. The tool contract exposes `requestNo`, `quoteNo`, `resellerNo`, `requestName`, `createFrom`, and `createTo`. Search needs a meaningful identifier; dates and scope alone do not establish ticket identity.
-
-The script converts PO, order, and deal numbers to `requestName` searches. `quoteId` can map to `quoteNo`. A direct `requestNo` attempt is searched as a number when numeric. The name-search request body strips unsupported identifier/date aliases (`quoteNo`, `resellerNo`, `createDate`, `updateDate`, `updateFrom`, `updateTo`); direct request-number search is a separate call. The update **agent** prompt is narrower: it says to send only `requestName`, `createFrom`, and `createTo` and never send request number, quote number, or reseller number.
-
-Name searches use a now-relative inclusive window from **20 days before execution through one day after execution**. The optional email timestamp does not move that window. Direct request-number calls in `executeRcRequestSearchByNo` send the number and fixed scope without the date window, despite the broader comment in `match-priority.js` saying all searches have dates. This distinction matters when a ticket is older than 20 days.
-
-### Attempt order
-
-| Path | Order actually built |
+| Situation | What it means for the business |
 | --- | --- |
-| Create pre-search | Sanitized `requestId` as `requestNo`; then extracted `requestName` (plain and `SECURITY WARNING:` forms); then stripped subject in those forms if different. |
-| Update script gate | The same preferred attempts, followed by ordered identifiers: `requestId`/`requestNo`, PO, quote, deal, order, thread. Quote may get an additional `requestName` attempt; PO/deal/order can get additional name attempts. Attempts without usable search arguments are skipped. |
-| Update agent | Canonical request name and `SECURITY WARNING:` form are built first; the context may merge additional distinct attempts. Its prompt says to use the supplied attempts in order. |
+| No RC request number is provided | The search has to rely on less distinctive information, such as the subject or other reference numbers. |
+| The email subject has changed | The current message may no longer resemble the original request name. |
+| The request is older | Name-based searches focus on recent requests, so an older request may be missed without its RC number. |
+| Several requests look alike | A person may need to confirm which request belongs to this conversation. |
+| The details do not agree | A possible result may belong to a different customer or piece of work and should not be treated as a match. |
+| The search is unavailable or has an error | The team cannot conclude that no request exists; the search needs to be retried or checked. |
 
-`threadId` is in the priority list but `mapIdentifierToSearchArgs` has no direct mapping for it, so it is not an independent RC query. Search terms are candidates, not proof that the returned ticket is the right business request.
+A completed search with no match is different from a search that could not be completed. Both can require follow-up, but only the first suggests that a new request may be needed.
 
-### Exact result decisions
+## What can request owners do to help?
 
-1. **Call level:** HTTP status `>=400`, a recognized error payload, an exception, `responseError`, missing `restCall`, or an empty REST result is a failed call in the script wrapper. An ordinary response with `found:false` or no rows is a completed search with no match. The MCP tool contract separately describes 404 as `{found:false}`; the script wrapper treats HTTP 404 as an error. These are different surfaces.
-2. **Row level:** Search accepts arrays or `data`, `list`, `records`, or `candidates` arrays, plus a nested `request`. A row must supply a usable `requestNo`/`requestId` to become a match. `found:true` without a usable number does not become `unique`.
-3. **Name result with several rows:** the script sorts by newest `createdOn`, then newest `lastUpdatedOn`, then highest numeric request number. It chooses the first sorted row and records other request numbers in `relatedRequestNos`. Thus multiple name-search rows can produce `unique`; they are **not** automatically sent to review.
-4. **Create pre-search:** the first usable non-name unique match wins. Name matches can be collected across attempts and the newest selected. A true `ambiguity:true` result is `ambiguous`. If no match resolves, the node records `not_found`.
-5. **Update script gate:** `runSearchGate` stops at the first unique attempt. More than one distinct request number within one attempt is `ambiguous`; with `stopOnUnique`, later attempts are not checked once a unique result is found. A failed attempted call returns `failed` immediately. With no candidate it returns `none`.
-6. **Bound ticket:** a prior `unique` plus nonblank `matchedRequestNo`, or `skipSearch`, can bypass re-entry search. The update result handler can also use a dispatched `requestId`/`requestNo` when tool history is absent, unless the agent explicitly reported not found. This is a binding fallback, not evidence of a successful fresh search.
+- **Keep the RC request number in follow-up emails** when one exists, ideally in the subject or first line.
+- **Reply in the existing email thread** and keep the subject recognizable when the work is continuing.
+- **Include relevant reference numbers** such as a PO, quote, deal, or order number, and label what each number is.
+- **Name the customer and describe the specific work** so a person can distinguish it from other requests with similar titles.
+- **Flag changed scope or a new issue clearly.** Say whether the email continues an existing request or asks for separate work.
+- **Check a proposed match before updating it** if the customer, subject, or work does not clearly line up.
 
-The create pre-search resolver maps failed lookup payloads to `not_found`, and its node records that status after the attempts. Operators must inspect the logged search error and HTTP status before treating such a result as a confirmed business miss. Also, the script REST normalizer selects one newest row before the update gate sees the result, so the gate's ambiguity check does not by itself expose every multi-row name response.
-
-**Business consequence:** `unique` means the workflow selected one request number according to these rules. It does not prove semantic identity of the ticket, nor does it prove the RC update succeeded. The agent instructions require reading returned fields and content matching before writing; the script's newest-row selection and dispatched-ID fallback do not independently prove that semantic match.
-
-### Outcomes after search
-
-| Outcome | Workflow action |
-| --- | --- |
-| `unique` | Bind `requestNo`, preserve `matchedOn` and related numbers where available, and continue the update path. |
-| Create pre-search `not_found` | Continue toward create. |
-| Update `none` / confirmed miss | The downstream update flow may forward to create and review, subject to shipping-status exceptions. |
-| `ambiguous` | Human review; do not arbitrarily choose an RC candidate. |
-| `failed` | Record `search_failed`; investigate the service/transport result. |
-
-A shipping-status email from the configured allowlist with the shipped/Event-ID pattern is an exception: unique continues update; a confirmed miss or absent usable PO/order is ignored; ambiguity still goes to review.
-
-## 3. Customer/reseller search
-
-### Business purpose and domain selection
-
-The create agent uses the external `customer_search` MCP service to find a reseller account. The workflow prefers a non-internal thread contact email's domain, then an eligible domain hint; a forwarded external sender can override the selected domain. Generic domains (`gmail.com`, `yahoo.com`, `outlook.com`, `hotmail.com`) and internal/partner domains (`tdsynnex.com`, `synnex.com`, `techdata.com`, `cisco.com`) are excluded from domain-based account resolution. An internal sender is not the customer identity.
-
-### Allowed search sequence and success test
-
-1. Search `emailAddress="@" + customerDomain`, `fuzzySearch="Y"`, `returnMasterAccount="Y"`, `pageSize=5`. The leading `@` reduces false contains matches.
-2. Compare every returned row's email domain to `customerDomain` **for equality**, then compare `custName` and account data with the sender, thread, and business context. Identical `custNo` rows are contact rows for one company. A contact email or a `MASTER CUSTOMER` terms label alone is insufficient.
-3. If a domain-equal, context-fitting row has a usable `masterCustomerAcct`, select that master account and stop. Copy `custName` from the same chosen row.
-4. Only if a domain-equal company lacks a usable master account, make **one** more fuzzy `@customerDomain` search with `pageSize=5` and omit `returnMasterAccount`. A context-fitting row's `custNo` may then be used as the account, even if it is a subaccount.
-5. If no domain-equal row appeared, make one final exact (`fuzzySearch="N"`) search with a full external thread/contact email whose domain equals `customerDomain`, `returnMasterAccount="Y"`, `pageSize=5`. Do not use an internal email. If no suitable company is found, return null account/name.
-
-The agent returns only `noteText`, `masterCustomerAcct`, `custName`, and `customerSearchDebug`. The debug list contains up to five rows from the search that supplied the chosen account and only `custNo`, `custName`, `emailAddress`, `masterCustomerAcct`; it is `[]` when no rows were returned.
-
-### Payload consequence and enforcement limit
-
-A chosen account is placed in the create payload's `reseller.custNo` and `reseller.masterCustomerAcct`. Blank or zero master account values do not map to a reseller. Without a usable reseller, the payload omits `reseller` rather than sending null; the workflow reports the missing reseller for review handling. A contact row is preferred when its email exactly matches a non-internal thread person; otherwise the helper can use the first returned contact row.
-
-The exact-domain and company-context test is an **agent instruction**. `first-account.js` maps the agent's selected account and applies only structural checks such as nonblank/nonzero account number; it does not independently verify domain equality or company relevance. Its first-row contact fallback must not be interpreted as permission to choose the first company from a raw customer search.
-
-## 4. Operational checks for a successful run
-
-- For RC, record the search term, date bounds, HTTP/error state, `matchedOn`, row count, selected `requestNo`, `relatedRequestNos`, and final `searchOutcome` or `existingRequestMatchStatus`. Verify the selected request's content before any update write.
-- For customer search, record the chosen external `customerDomain`, each allowed attempt, the exact returned email domain, selected `custName`, and the account number source (`masterCustomerAcct` or permitted `custNo` fallback). Check that both account and name came from the same company row.
-- Check the downstream create/update terminal state separately from the search decision. A found account or request is not proof that a note, attachment, status change, or create was completed.
-
-## Source of truth
-
-RC search: `src/spec-06/shared/lib/{match-priority,search-date-window,script-request-search,search-gate}.js`, `src/spec-06/shared/node-glue/{search_existing_request,rc_search_request,build_update_agent_context,enforce_update_result}.glue.js`, and `src/spec-07/mcp-integration/tools/rcs_request_search/{schema,runtime}.md`.
-
-Customer search: `src/spec-06/shared/node-glue/build_create_agent_context.glue.js`, `src/spec-06/create-request/handoff/handoff_ok/ifCondition/create_agent/prompts.md`, and `src/spec-06/shared/lib/{first-account,capture-agent-tool-results}.js`.
+These habits make existing requests easier to find and reduce the chance of attaching an email to the wrong request.

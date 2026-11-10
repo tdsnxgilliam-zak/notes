@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+                "file": "1-write/fde/01-siq-first-proj/intake/006-post-reyna-intake-planning.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
+                "file": "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "005-quick-discussion-nate"
+              "title": "001-quick-discussion-nate"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
+                "file": "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "007-sigma-iq-03"
+              "title": "003-slide-7-problem-definition"
             }
           }
         ],
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
+                "file": "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -305,13 +305,25 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "f40014c0d08012b6",
+  "active": "59fa5a7f9af2f8ac",
   "lastOpenFiles": [
+    "1-write/fde/01-siq-first-proj/res/FDE Session 3 SME Shadowing Guide.docx",
+    "1-write/fde/01-siq-first-proj/res/FDE Session 3 Framing the Capstone Problem.pptx",
+    "1-write/fde/01-siq-first-proj/res/FDE Session 3 Business Case Brief Template.docx",
+    "1-write/fde/01-siq-first-proj/res/FDE Session 3 Capstone Discovery Tracker.xlsx",
+    "1-write/fde/01-siq-first-proj/res",
+    "1-write/fde/01-siq-first-proj/problem-definition/Untitled",
+    "1-write/fde/01-siq-first-proj/problem-definition/002-capturing-micro-smb.md",
+    "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
+    "1-write/fde/01-siq-first-proj/problem-definition/001-initial-value-calculation.md",
+    "1-write/fde/01-siq-first-proj/meetings/002-sigma-iq-03.md",
+    "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
+    "1-write/fde/01-siq-first-proj/meetings",
+    "1-write/fde/01-siq-first-proj/problem-definition",
+    "1-write/fde/01-siq-first-proj/intake",
     "1-write/daily/11-09-2026/11-10-2026.md",
-    "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
     "1-write/CSET/v2/other-docs/business-search.md",
-    "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
-    "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
+    "1-write/fde/01-siq-first-proj/intake/006-post-reyna-intake-planning.md",
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/CSET/v2/v2-goals.md",
     "1-write/CSET/v2/other-docs",
@@ -321,28 +333,16 @@
     "1-write/daily/11-09-2026/11-09-2026.md",
     "4-configure/calendar/new-daily-note.sh",
     "4-configure/calendar/daily-note-template.md",
-    "4-configure/calendar",
     "1-write/daily/11-02-2026/11-06-2026.md",
-    "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
+    "1-write/fde/01-siq-first-proj/intake/002-reyna-intake-planning.md",
     "1-write/CSET/v1/deployment/001-Communication.md",
     "1-write/daily/10-26-2026/10-28-2026.md",
-    "1-write/fde/01-siq-first-proj/003-initial-value-calculation.md",
-    "1-write/fde/01-siq-first-proj/004-capturing-micro-smb.md",
     "1-write/daily/10-26-2026/10-27-2026.md",
-    "1-write/daily/11-09-2026",
-    "1-write/CSET/v2/data-planning",
-    "1-write/CSET/v2/co-design",
-    "1-write/fde/01-siq-first-proj/Untitled",
     "1-write/daily/11-02-2026/11-05-2026.md",
-    "1-write/CSET/v2",
-    "1-write/CSET/v1",
-    "1-write/CSET/v1/deployment",
     "1-write/daily/10-26-2026/10-26-2026.md",
     "1-write/daily/11-02-2026/11-02-2026.md",
     "1-write/daily/11-02-2026/11-03-2026.md",
     "1-write/daily/10-26-2026/10-29-2026.md",
-    "4-configure/github-ssh-new-account.md",
-    "1-write/fde/01-siq-first-proj/001-ideas.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",

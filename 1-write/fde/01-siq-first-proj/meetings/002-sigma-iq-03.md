@@ -28,8 +28,6 @@ contacts:
 **Continue working on operating model**
 - Think of how it fits into the entire ecosystem
 
-**Really hone in on the use case**
-
 **SME Calls are not an interview - they are an immersive experience**
 
 
@@ -82,9 +80,10 @@ contacts:
 
 ### Things to follow-up on
 
+**Agentic Digital Direction**
 - What are the decision rights that Jonathan was talking about? Who makes them?
 - Who is going to be the best person to connect us to the new market?
+
+**Planning the work**
 - Go through the slide 7 and fill it out
 - Then, go through slide 12
-
-Sara McLean

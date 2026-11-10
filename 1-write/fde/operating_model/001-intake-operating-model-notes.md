@@ -7,7 +7,7 @@ date: 2026-11-06
 
 # FDE Operating Model: Open Questions
 
-Sources: [[11-06-2026]] daily notes (Reyna meeting), `003-reyna-intake-presentation.pptx` (slides 03, 04, A7, A8, A6, A9), and [[005-quick-discussion-nate|discussion with Nate]].
+Sources: [[11-06-2026]] daily notes (Reyna meeting), `003-reyna-intake-presentation.pptx` (slides 03, 04, A7, A8, A6, A9), and [[001-quick-discussion-nate|discussion with Nate]].
 
 What the deck already commits to (so I don't re-ask it):
 - Rhythm: Market signal → Shape a solution → Build & test → Review → Hand off. Steps 1–4 repeat until the build is proven.
