@@ -225,7 +225,9 @@ async function createDailyNote(date) {
     const { template, format, folder } = getDailyNoteSettings();
     const [templateContents, IFoldInfo] = await getTemplateInfo(template);
     const filename = date.format(format);
-    const normalizedPath = await getNotePath(folder, filename);
+    // Keep Calendar-created notes in the vault's Monday-based week folders.
+    const weekFolder = date.clone().startOf("isoWeek").format("MM-DD-YYYY");
+    const normalizedPath = await getNotePath(join(folder, weekFolder), filename);
     try {
         const createdFile = await vault.create(normalizedPath, templateContents
             .replace(/{{\s*date\s*}}/gi, filename)

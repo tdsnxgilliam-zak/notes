@@ -65,9 +65,10 @@ else
 fi
 
 script_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
-vault_root=$(cd -- "$script_dir/.." && pwd)
+vault_root=$(cd -- "$script_dir/../.." && pwd)
 note_dir="$vault_root/1-write/daily/$week_folder"
 note_path="$note_dir/$note_name.md"
+template_path="$script_dir/daily-note-template.md"
 
 if [[ -e "$note_path" ]]; then
   printf 'Daily note already exists: %s\n' "$note_path" >&2
@@ -80,20 +81,8 @@ if [[ "$dry_run" == true ]]; then
 fi
 
 mkdir -p -- "$note_dir"
-{
-  printf '%s\n' '---' 'tags:' '  - daily' "date: $target_date" '---' ''
-  cat <<'EOF'
-# Daily Note
-
-## Meets
-
-
-## TODO
-
-
-## Notes
-
-EOF
-} > "$note_path"
+template_contents=$(<"$template_path")
+template_contents=${template_contents//\{\{date:YYYY-MM-DD\}\}/$target_date}
+printf '%s\n' "$template_contents" > "$note_path"
 
 printf 'Created: %s\n' "$note_path"

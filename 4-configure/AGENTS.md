@@ -47,11 +47,12 @@ date: YYYY-MM-DD
 ## Notes
 ```
 
-Use `4-configure/new-daily-note.sh` to create a missing daily note. It uses
+Use `4-configure/calendar/new-daily-note.sh` to create a missing daily note. It uses
 today when no date is supplied, accepts a date argument for backfills or
 planning, calculates the correct Monday folder, and will not overwrite a
 note that already exists. New notes also receive a `date` field for the
 actual note date.
+The script and Calendar plugin both use `4-configure/calendar/daily-note-template.md`.
 
 ## Writing conventions
 

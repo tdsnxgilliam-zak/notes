@@ -1,0 +1,4 @@
+.at-prefix-highlight {
+  background-color: var(--text-highlight-bg, rgba(255, 190, 70, 0.35));
+  border-radius: 3px;
+}

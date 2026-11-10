@@ -7,7 +7,7 @@ date: 2026-11-06
 
 # FDE Operating Model: Open Questions
 
-Sources: [[11-06-2026]] daily notes (Reyna meeting) and `003-reyna-intake-presentation.pptx` (slides 03, 04, A7, A8, A6, A9).
+Sources: [[11-06-2026]] daily notes (Reyna meeting), `003-reyna-intake-presentation.pptx` (slides 03, 04, A7, A8, A6, A9), and [[005-quick-discussion-nate|discussion with Nate]].
 
 What the deck already commits to (so I don't re-ask it):
 - Rhythm: Market signal → Shape a solution → Build & test → Review → Hand off. Steps 1–4 repeat until the build is proven.
@@ -19,6 +19,8 @@ What the deck already commits to (so I don't re-ask it):
 
 What Reyna's feedback says is missing: a *more defined* operating model, one that drives success criteria forward without eroding what's already built, with a stronger scope, defined success measures and reporting.
 
+Nate's discussion broadens the frame: the operating model should describe how our group works alongside the rest of the organization and acts as a catalyst for change, as well as how FDE pods deliver missions. That includes the relationship between exploring new profit pools and strengthening the core, enabling digital transformation with sales, and making existing capabilities more widely usable. These are directions to develop and validate, not settled commitments.
+
 ---
 
 ## 1. Scope and mission
@@ -29,6 +31,15 @@ What Reyna's feedback says is missing: a *more defined* operating model, one tha
 - [ ] How does a pod's scope get set, narrowed and frozen once a mission is committed? Who can change it mid-flight?
 - [ ] How does the scope relate to the existing roadmap? Does FDE work replace, add to, or compete with it?
 - [ ] What is the definition of "done" for a mission, and for the whole pod?
+
+## Organizational role and change
+
+- [ ] What changes should our group catalyze across the organization, beyond delivering individual FDE missions? How will we know those changes have taken hold?
+- [ ] How do we work alongside core teams and the wider organization to explore new profit pools while strengthening the core? Where do responsibilities and decision rights meet?
+- [ ] How do we connect with Reyna's digital enablement work and the sales organization to make the selling experience more seamless and enable that transformation?
+- [ ] How might CIS MCP help democratize innovation? Who would use it, what would it enable, and what support and guardrails would be needed?
+- [ ] If CIS is the core, how do digital, ERP and CDP fit into that ecosystem? What value and new possibilities could come from bringing them closer together, and what must be protected?
+- [ ] How do we carry successful changes into existing teams' processes, ownership and ways of working, and how do we measure adoption and impact after hand-off?
 
 ## 2. Core: what we preserve and protect
 
@@ -127,6 +138,7 @@ Smallest set that unblocks a "more defined" operating model:
 3. Integrate-vs-standalone test and the platform decision owner (§3, §4).
 4. Decision rights and the hand-off owner (§5).
 5. Success metrics, baseline, reporting path (§10).
+6. The group's role in organizational change, its connections to core teams and sales, and how change is adopted (Organizational role and change).
 
 ## Notes / answers
 

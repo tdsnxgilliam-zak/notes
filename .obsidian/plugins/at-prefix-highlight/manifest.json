@@ -1,0 +1,9 @@
+{
+  "id": "at-prefix-highlight",
+  "name": "At Prefix Highlight",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Highlight @words that start after whitespace.",
+  "author": "Vault local",
+  "isDesktopOnly": false
+}
