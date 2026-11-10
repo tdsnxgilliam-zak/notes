@@ -16,11 +16,10 @@ contacts:
 - Brief check-in 
 - Debrief the call with Reyna
 	- Any progress on the feedback
-- Open discussion - things coming up
-- 
+- Curriculum on next steps
 
 
-***What to leave with***
+***Supporting knowledge***
 
 **Not accepted does not mean rejected**
 - If a use case is not accepted - that's the intake process working!
