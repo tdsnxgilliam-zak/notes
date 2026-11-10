@@ -87,3 +87,5 @@ contacts:
 - Who is going to be the best person to connect us to the new market?
 - Go through the slide 7 and fill it out
 - Then, go through slide 12
+
+Sara McLean

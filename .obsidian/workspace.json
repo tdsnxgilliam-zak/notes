@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/daily/11-09-2026/11-10-2026.md",
+                "file": "1-write/fde/res/styles/presentation-style.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-10-2026"
+              "title": "presentation-style"
             }
           }
         ]
@@ -70,9 +70,23 @@
               "icon": "lucide-file",
               "title": "005-quick-discussion-nate"
             }
+          },
+          {
+            "id": "f40014c0d08012b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "007-sigma-iq-03"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -276,53 +290,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "floating": {
-    "id": "0f98bb7e5a7fae0d",
-    "type": "floating",
-    "children": [
-      {
-        "id": "31c5e8efc5eccebd",
-        "type": "window",
-        "children": [
-          {
-            "id": "170652bca90e1842",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f40014c0d08012b6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "007-sigma-iq-03"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 233,
-        "y": 210,
-        "width": 821,
-        "height": 1166,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "f40014c0d08012b6",
   "lastOpenFiles": [
+    "1-write/fde/res/styles/presentation-style.md",
+    "1-write/CSET/v2/co-design/001-cisco-codesign-planning.md",
+    "1-write/daily/11-09-2026/11-10-2026.md",
+    "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
     "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
     "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
-    "1-write/fde/operating_model/001-intake-operating-model-notes.md",
-    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
-    "1-write/daily/11-09-2026/11-10-2026.md",
     "1-write/CSET/v2/data-planning/001-access-to-data.md",
     "1-write/daily/11-09-2026/11-09-2026.md",
     "4-configure/calendar/new-daily-note.sh",
@@ -338,14 +314,13 @@
     "1-write/daily/10-26-2026/10-27-2026.md",
     "1-write/daily/11-09-2026",
     "1-write/CSET/v2/data-planning",
-    "1-write/CSET/v2/codesign",
+    "1-write/CSET/v2/co-design",
     "1-write/fde/01-siq-first-proj/Untitled",
     "1-write/daily/11-02-2026/11-05-2026.md",
     "1-write/CSET/v2",
     "1-write/CSET/v1",
     "1-write/CSET/v1/deployment",
     "1-write/fde/01-siq-first-proj/003-reyna-intake-presentation.pptx",
-    "1-write/fde/res/styles/presentation-style.md",
     "1-write/daily/10-26-2026/10-26-2026.md",
     "1-write/daily/11-02-2026/11-02-2026.md",
     "1-write/daily/11-02-2026/11-03-2026.md",
