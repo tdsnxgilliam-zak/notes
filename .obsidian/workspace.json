@@ -21,27 +21,6 @@
               "icon": "lucide-file",
               "title": "11-10-2026"
             }
-          }
-        ]
-      },
-      {
-        "id": "f3dc55243c4405e2",
-        "type": "tabs",
-        "dimension": 50.41782729805014,
-        "children": [
-          {
-            "id": "93cc7759ac1077ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-write/CSET/v2/v2-goals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "v2-goals"
-            }
           },
           {
             "id": "f40014c0d08012b6",
@@ -49,26 +28,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
+                "file": "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-cisco-codesign-planning"
+              "title": "007-sigma-iq-03"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f3dc55243c4405e2",
+        "type": "tabs",
+        "dimension": 50.41782729805014,
+        "children": [
           {
-            "id": "67d7f1125230c34e",
+            "id": "3e07e775077abd7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/CSET/v2/data-planning/001-access-to-data.md",
+                "file": "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-access-to-data"
+              "title": "006-post-reyna-intake-planning"
+            }
+          },
+          {
+            "id": "ed0c4e30b223d82f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "001-intake-operating-model-notes"
+            }
+          },
+          {
+            "id": "d35d68a0afc01f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "005-quick-discussion-nate"
             }
           }
         ],
@@ -181,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/daily/11-09-2026/11-10-2026.md",
+                "file": "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +205,7 @@
               "title": "Outline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -277,17 +291,19 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "12c9ac8884225202",
+  "active": "f40014c0d08012b6",
   "lastOpenFiles": [
-    "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
-    "1-write/daily/11-09-2026/11-10-2026.md",
-    "1-write/daily/11-09-2026/11-09-2026.md",
     "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
+    "1-write/fde/01-siq-first-proj/007-sigma-iq-03.md",
+    "1-write/fde/01-siq-first-proj/006-post-reyna-intake-planning.md",
+    "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
+    "1-write/daily/11-09-2026/11-10-2026.md",
+    "1-write/CSET/v2/data-planning/001-access-to-data.md",
+    "1-write/daily/11-09-2026/11-09-2026.md",
     "4-configure/calendar/new-daily-note.sh",
     "4-configure/calendar/daily-note-template.md",
     "4-configure/calendar",
-    "1-write/CSET/v2/data-planning/001-access-to-data.md",
-    "1-write/CSET/v2/codesign/001-cisco-codesign-planning.md",
     "1-write/CSET/v2/v2-goals.md",
     "1-write/daily/11-02-2026/11-06-2026.md",
     "1-write/fde/01-siq-first-proj/002-reyna-intake-planning.md",
@@ -295,7 +311,6 @@
     "1-write/daily/10-26-2026/10-28-2026.md",
     "1-write/fde/01-siq-first-proj/003-initial-value-calculation.md",
     "1-write/fde/01-siq-first-proj/004-capturing-micro-smb.md",
-    "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/daily/10-26-2026/10-27-2026.md",
     "1-write/daily/11-09-2026",
     "1-write/CSET/v2/data-planning",
@@ -314,7 +329,6 @@
     "4-configure/github-ssh-new-account.md",
     "1-write/fde/01-siq-first-proj/001-ideas.md",
     "1-write/daily/10-19-2026/10-22-2026.md",
-    "1-write/daily/10-19-2026/10-23-2026.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
