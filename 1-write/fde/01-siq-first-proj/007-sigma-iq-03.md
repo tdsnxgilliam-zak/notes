@@ -22,9 +22,17 @@ contacts:
 
 ***What to leave with***
 
-- Hone in on the use-case
-- Find the people involved
-- Find the exact problems to be solved
+**Not accepted does not mean rejected**
+- If a use case is not accepted - that's the intake process working!
+- Ask why, record it, redirect, revisit
+
+**Continue working on operating model**
+- Think of how it fits into the entire ecosystem
+
+**Really hone in on the use case**
+
+**SME Calls are not an interview - they are an immersive experience**
+
 
 ---
 
@@ -36,7 +44,9 @@ contacts:
 - Lean towards the confederated model 
 - Use case should dictate what we do
 	- What can we build simplistically for the whole organization
-	- Which closed vendor can we bring in
+	- Which closed vendor can we bring in to work with this solution that we've built for the whole organization
+- **Start the build for the organization**
+	- **Start the build broadly and then work with the vendor teams to build in the decision rights**
 
 **Ahmet**
 - IT operating model is a big takeaway
@@ -57,3 +67,23 @@ contacts:
 	- Seemed to hit a nerve
 	- Take the research that vendor teams are doing but we don't need to bring them into the fold
 
+---
+## Use Case Next Steps
+
+> Transform to a business case justification
+
+
+***What is the decision that we want this solution to enable?***
+- Always a result of this being *adopted*
+- Define who the exact audience is
+- What does the current state look like?
+	- Use this to further scope
+- What is success and what is the value against the baseline?
+
+
+### Things to follow-up on
+
+- What are the decision rights that Jonathan was talking about? Who makes them?
+- Who is going to be the best person to connect us to the new market?
+- Go through the slide 7 and fill it out
+- Then, go through slide 12
