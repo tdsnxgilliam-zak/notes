@@ -197,9 +197,21 @@ FDEs are **NOT** expected to compete, replace, or add to IT roadmap solutions th
 - We make the decision if it is justified (removing any resistence to change)
 - Otherwise:
 	- Exists with the business users
-	- Relevant partners/vendors
+	- Exists with relevant partners/vendors
 	- Exists with the relevant TPM/SE teams
-- 
+	- Exists with other use-case-specific teams
+> We make the decision that is "*best for the business*"
+
+*How do we connect with Reyna's digital enablement work and the sales organization to make the selling experience more seamless and enable that transformation?*
+- Include the SMEs in the scoping/co-design
+- If it exists we aren't going to remake it ← might transform it
+
+*If CIS is the core, how do the FDE tool(s) fit into that ecosystem? What value and new possibilities could come from bringing them closer together, and what must be protected?*
+- **Core vs. Explore**
+	- FDEs are the explorers - our insights, tools, and solutions are separated from traditional core solutions
+	- This enables FDEs to model new relationships across isolated business areas
+	- This data platform should be accessible (*with business justification*) to core teams
+- Visibility into data that isn't justified is allowed
 
 ***Section 2: "The Core" -- what we are preserving and protecting***
 
@@ -210,22 +222,4 @@ The core consists of the following:
 - PFC
 **Data**:
 - All CIS monolithic data & architecture
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

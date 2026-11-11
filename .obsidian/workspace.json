@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+                "file": "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-intake-operating-model-notes"
+              "title": "004-business-case-brief"
             }
           },
           {
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+                "file": "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,7 +216,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -302,14 +303,16 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "0a71141301c04832",
+  "active": "f40014c0d08012b6",
   "lastOpenFiles": [
-    "1-write/fde/operating_model/Pasted image 20261111135505.png",
-    "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
+    "1-write/fde/01-siq-first-proj/res/~$FDE Session 3 Capstone Discovery Tracker.xlsx",
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/fde/operating_model/002-operating-model-planning.md",
-    "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
+    "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
     "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
+    "1-write/fde/operating_model/001-intake-operating-model-notes 2026-11-11 14.24.21.excalidraw.md",
+    "1-write/fde/operating_model/Pasted image 20261111135505.png",
+    "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
     "1-write/daily/11-09-2026/11-11-2026.md",
     "1-write/fde/01-siq-first-proj/res/~$FDE Session 3 Framing the Capstone Problem.pptx",
     "1-write/fde/01-siq-first-proj/problem-definition/001-initial-value-calculation.md",
@@ -339,7 +342,6 @@
     "1-write/CSET/v1/deployment/001-Communication.md",
     "1-write/daily/10-26-2026/10-28-2026.md",
     "1-write/daily/10-26-2026/10-27-2026.md",
-    "1-write/daily/11-02-2026/11-05-2026.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
@@ -350,7 +352,6 @@
     "bais/Pasted image 20260406142240.png",
     "Boost Report.canvas",
     "Pasted image 20260406100957.png",
-    "Pasted image 20260327114653.png",
     "Untitled.canvas",
     "school-26-s1/db/Untitled.canvas"
   ]
