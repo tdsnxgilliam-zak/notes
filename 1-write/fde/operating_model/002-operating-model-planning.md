@@ -9,3 +9,9 @@ contacts:
 # Operating Model Planning 
 ---
 *A collection of meeting discussions around operating model planning*
+
+
+## Ahmet: Discovery 01
+---
+
+Codesign t

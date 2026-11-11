@@ -73,6 +73,8 @@ Annual value range from the Session 2 worksheet: **Low** $______M · **Likely** 
 
 ## 7. Scope
 
+> This will be the most important part
+
 | In scope for v1 | Explicitly out of scope |
 |---|---|
 | | |

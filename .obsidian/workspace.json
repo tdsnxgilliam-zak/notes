@@ -8,17 +8,66 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a47624fa89b626f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/daily/11-09-2026/11-11-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11-11-2026"
+            }
+          },
+          {
+            "id": "5f0f2bc864290611",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "003-slide-7-problem-definition"
+            }
+          },
+          {
             "id": "f40014c0d08012b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
+                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "004-business-case-brief"
+              "title": "001-intake-operating-model-notes"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ae21f8c69ba8bb41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "687802181a26b788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "001-intake-operating-model-notes"
             }
           },
           {
@@ -36,26 +85,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "ae21f8c69ba8bb41",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a47624fa89b626f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-write/daily/11-09-2026/11-11-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11-11-2026"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +96,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 44.74605954465849,
+        "dimension": 42.82006920415225,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -119,7 +148,7 @@
       {
         "id": "8539c2149a0a2733",
         "type": "tabs",
-        "dimension": 27.23292469352014,
+        "dimension": 29.1522491349481,
         "children": [
           {
             "id": "a3182ccde5243a20",
@@ -146,7 +175,7 @@
       {
         "id": "db10d1fb91e2b3b0",
         "type": "tabs",
-        "dimension": 28.021015761821367,
+        "dimension": 28.027681660899656,
         "children": [
           {
             "id": "4e9a00619e7f4d83",
@@ -164,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
+                "file": "1-write/fde/operating_model/001-intake-operating-model-notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,7 +202,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -259,14 +289,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "f40014c0d08012b6",
+  "active": "687802181a26b788",
   "lastOpenFiles": [
-    "1-write/daily/11-09-2026/11-11-2026.md",
-    "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
-    "1-write/fde/01-siq-first-proj/problem-definition/001-initial-value-calculation.md",
-    "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
-    "1-write/fde/01-siq-first-proj/res/~$E Session 3 Business Case Brief Template.docx",
     "1-write/fde/operating_model/002-operating-model-planning.md",
+    "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
+    "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
+    "1-write/daily/11-09-2026/11-11-2026.md",
+    "1-write/fde/01-siq-first-proj/res/~$FDE Session 3 Framing the Capstone Problem.pptx",
+    "1-write/fde/01-siq-first-proj/problem-definition/001-initial-value-calculation.md",
+    "1-write/fde/01-siq-first-proj/res/~$E Session 3 Business Case Brief Template.docx",
     "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/fde/01-siq-first-proj/intake/006-post-reyna-intake-planning.md",
@@ -283,7 +314,6 @@
     "1-write/fde/01-siq-first-proj/meetings/002-sigma-iq-03.md",
     "1-write/fde/01-siq-first-proj/meetings",
     "1-write/fde/01-siq-first-proj/problem-definition",
-    "1-write/fde/01-siq-first-proj/intake",
     "1-write/CSET/v2/v2-goals.md",
     "1-write/fde/res/styles/presentation-style.md",
     "1-write/CSET/v2/co-design/001-cisco-codesign-planning.md",
@@ -296,7 +326,6 @@
     "1-write/daily/10-26-2026/10-28-2026.md",
     "1-write/daily/10-26-2026/10-27-2026.md",
     "1-write/daily/11-02-2026/11-05-2026.md",
-    "1-write/daily/10-26-2026/10-26-2026.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",

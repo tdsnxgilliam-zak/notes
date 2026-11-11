@@ -140,6 +140,7 @@ Smallest set that unblocks a "more defined" operating model:
 5. Success metrics, baseline, reporting path (§10).
 6. The group's role in organizational change, its connections to core teams and sales, and how change is adopted (Organizational role and change).
 
+---
 ## Notes / answers
 
 ***Section 1: Scope & Mission***
