@@ -37,7 +37,6 @@ Nate's discussion broadens the frame: the operating model should describe how ou
 - [ ] What changes should our group catalyze across the organization, beyond delivering individual FDE missions? How will we know those changes have taken hold?
 - [ ] How do we work alongside core teams and the wider organization to explore new profit pools while strengthening the core? Where do responsibilities and decision rights meet?
 - [ ] How do we connect with Reyna's digital enablement work and the sales organization to make the selling experience more seamless and enable that transformation?
-- [ ] How might CIS MCP help democratize innovation? Who would use it, what would it enable, and what support and guardrails would be needed?
 - [ ] If CIS is the core, how do digital, ERP and CDP fit into that ecosystem? What value and new possibilities could come from bringing them closer together, and what must be protected?
 - [ ] How do we carry successful changes into existing teams' processes, ownership and ways of working, and how do we measure adoption and impact after hand-off?
 
@@ -168,9 +167,39 @@ FDEs are **NOT** expected to compete, replace, or add to IT roadmap solutions th
 2. Territory where there are various point solutions with no cohesion between them
 
 *What is the definition of "Done" for a mission?*
-"Done", for an FDE pod, is when the problem has been correctly defined and there is a solution built to transform the business process that is successfully tested. Once this happens - the FDE pod hands off the solution to the TPM/SE team in that space (which the solution has been codesigned with) and tackles the next mission.
+"Done", for an FDE pod, is when the problem has been correctly defined and there is a solution built to transform the business process that is successfully tested. Once this happens - the FDE pod hands off the solution to the TPM/SE team in that space (which the solution has been codesigned* with) and tackles the next mission.
+\* Codesign: 90% us 10% them → As SME and for change management
 
 ---
+
+***Section !: Organizational Role & Change***
+
+**Core Teams**: 
+- Business users (e.g. mid-market sales)
+- SMEs 
+- Related TPM/SE/IT teams for changed CIS areas (whoever is going to maintain it afterwards)
+
+**Wider Organization**:
+- Broader organization that we touch (e.g. All sales vs. mid-market sales)
+- IT (NA Dev and China)
+
+*What changes should our group catalyze across the organization, beyond delivering individual FDE missions? How will we know those changes have taken hold?*
+- Who/what?
+	- Traditional TPM/SE positions
+	- Platforms - Tracks to production - 
+-  **Leaving this one as there are so many things that we can catalyze - work with POD leads to identify priority**
+
+*How do we work alongside core teams and the wider organization while strengthening the core?*
+- Keep a mind on scale from the start - don't build something that wouldn't be transferrable to the larger business or existing processes
+- Keeping the SE/TPM teams involved (not in terms of solutioning or decisioning)
+
+*Where do responsibilities and decision rights meet?*
+- We make the decision if it is justified (removing any resistence to change)
+- Otherwise:
+	- Exists with the business users
+	- Relevant partners/vendors
+	- Exists with the relevant TPM/SE teams
+- 
 
 ***Section 2: "The Core" -- what we are preserving and protecting***
 
