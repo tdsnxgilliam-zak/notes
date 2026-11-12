@@ -12,3 +12,6 @@ A **database** with a standardized schema should be introduced to allow for agen
 
 *Example Data Connection*:
 Agent A can call from previously processed data from Agent B to give more context, deduplicate, or lower reasoning costs for agent B.
+
+
+![[001-database-spec-visualization 2026-11-12 14.55.24.excalidraw]]

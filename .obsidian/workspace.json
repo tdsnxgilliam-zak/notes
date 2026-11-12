@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "41da3b322f0123ed",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization 2026-11-12 14.55.24.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "001-database-spec-visualization 2026-11-12 14.55.24.excalidraw"
+            }
+          },
+          {
             "id": "5f0f2bc864290611",
             "type": "leaf",
             "state": {
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -285,6 +297,7 @@
   },
   "active": "2f56bd6357433a39",
   "lastOpenFiles": [
+    "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization 2026-11-12 14.55.24.excalidraw.md",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
     "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/CSET/v2/updates/db-planning",
@@ -321,7 +334,6 @@
     "1-write/daily/11-02-2026/11-06-2026.md",
     "1-write/fde/01-siq-first-proj/intake/002-reyna-intake-planning.md",
     "1-write/CSET/v1/deployment/001-Communication.md",
-    "1-write/daily/10-26-2026/10-28-2026.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
