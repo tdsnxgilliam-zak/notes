@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/daily/11-09-2026/11-12-2026.md",
+                "file": "1-write/CSET/v2/data-planning/002-update-agent-search-data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-12-2026"
+              "title": "002-update-agent-search-data"
             }
           }
         ],
@@ -289,9 +289,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "4e9a00619e7f4d83",
+  "active": "f40014c0d08012b6",
   "lastOpenFiles": [
     "1-write/daily/11-09-2026/11-12-2026.md",
+    "1-write/CSET/v2/data-planning/002-update-agent-search-data.md",
     "1-write/daily/11-09-2026/11-10-2026.md",
     "1-write/daily/11-09-2026/11-11-2026.md",
     "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
