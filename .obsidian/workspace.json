@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/daily/11-09-2026/11-10-2026.md",
+                "file": "1-write/daily/11-09-2026/11-12-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-10-2026"
+              "title": "11-12-2026"
             }
           },
           {
@@ -48,27 +48,6 @@
               "icon": "lucide-file",
               "title": "002-update-agent-search-data"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ae21f8c69ba8bb41",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "687802181a26b788",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-write/CSET/v2/other-docs/business-search.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "business-search"
-            }
           },
           {
             "id": "34020885e385cfba",
@@ -84,7 +63,8 @@
               "title": "004-business-case-brief"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -289,10 +269,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "f40014c0d08012b6",
+  "active": "34020885e385cfba",
   "lastOpenFiles": [
-    "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/CSET/v2/data-planning/002-update-agent-search-data.md",
+    "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/daily/11-09-2026/11-10-2026.md",
     "1-write/daily/11-09-2026/11-11-2026.md",
     "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
