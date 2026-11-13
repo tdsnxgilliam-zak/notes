@@ -5,25 +5,24 @@ tags:
 FY: "27"
 quarter: Q1
 ---
-![[001-intake-operating-model-notes 2026-11-11 14.24.21.excalidraw]]
 ## Use Case Justification
 ---
 
 ### The one-line case
-The goal is **one sales agent**: a single orchestrator that fronts many workflows (email triage and PO to quote today; escalation, follow-ups, and others as we scale). For it to act autonomously it needs two things no individual workflow owns: **shared memory** of what has been seen, decided, and done across workflows and data sources, and **business-curated guardrails and information** that are controlled by existing logic but maintained by the business without a code release. No existing store in our ecosystem is shaped for both.
+The goal is an autonomous agent for **Quote-to-Cash (Q2C)**: one orchestrator per business unit that fronts many workflows (email triage and PO to quote today; escalation, follow-ups, order and invoice handling as we scale), all on one common data platform. Q2C is the first domain, not the boundary: the platform is designed so other functions can adopt the same pattern toward an organization-wide agent. For it to act autonomously it needs two things no individual workflow owns: **shared memory** of what has been seen, decided, and done across workflows and data sources, and **business-curated guardrails and information** that are controlled by existing logic but maintained by the business without a code release. No existing store in our ecosystem is shaped for both, and none spans every system a request touches (Request Central, Jira, Web Quote, Partner First, mail).
 
 ### Where we are today
 The first workflow live under the orchestrator is email triage (Auto Triage BRD v1.2, APPP space; Dev Studio setup pages). Its shape is the template for what follows:
 
 ```
-Sources (mailbox via IDP, POs, other channels)
+Sources (mail via IDP, APIs, CIS apps, NexChat, ...)
         → Event → Workflow (Dev Studio)
-        → Orchestrator → sub-agents (RC create/update, PO→Quote, escalation, ...)
-        → shared MCP → systems of record (RC, CIS, ...)
+        → Orchestrator → sub-agents (PO→Quote, escalation, ticket create/update, ...)
+        → shared MCP → systems of record (RC, Jira, Web Quote, CIS, ...)
 ```
 
 - **IDP** stores raw payload + per-document metadata, scoped to one *IDP Code* (one pipeline). It is an ingestion edge, not shared memory. **This is the MongoDB service.**
-- **Systems of record** (e.g. Request Central for tickets) hold the outcome of work, not the agent's context or the rules it operates under.
+- **Systems of record** (Request Central, Jira, Web Quote, CIS) each hold one slice of a request's story. None is the whole picture, and none holds the agent's context or the rules it operates under. Not every BU or request path uses Request Central.
 - **Orchestrator + sub-agents** are stateless between runs: each decision is made from the input in front of them plus whatever the MCP layer can fetch live.
 
 ### The gaps this creates
@@ -39,6 +38,34 @@ Evidence below comes from the Auto Triage BRD, the first workflow under the orch
 | **Measurement**                             | OKRs are baseline-relative; "measurement design is being roadmapped" (data sources, baseline capture, sampling).                                                                                      | A decision log (action, confidence, path taken, outcome, correction) is the measurement source for every workflow.                                                           |
 | **Extensibility**                           | OKR 3: onboard a new inbox in <1 day of engineering effort.                                                                                                                                           | New sources, workflows, and actions are configuration rows plus an MCP tool, not new code and a new schema each time.                                                        |
 
+### Tying every source together
+Not every request passes through Request Central. Requests arrive or live in Jira, Web Quote, Partner First, NexChat, and mail. A common database does not help unless each of those has a defined way to reach it. The proposed tie (draft):
+
+- **One canonical request record** per customer request or transaction, independent of any source system (the `activity_ledger`).
+- **Source references** linking that record to each system's own identifier (RC ticket, Jira key, Web Quote id, Partner First order, mail thread). Duplicates and follow-ups are recognized by matching normalized identifiers *across* sources, not within one.
+- **Ingestion by integration, not through a hub system.** Mail arrives through IDP events into Dev Studio workflows. CIS and external applications are reached through APIs or MCP tools. NexChat, the approved CIS agent platform, is a conversational entry point.
+
+| Source | Reaches the platform via | Status |
+| --- | --- | --- |
+| Outlook mail | IDP → Event → Dev Studio workflow | Exists (Auto Triage) |
+| Request Central | API / MCP | Mechanism TBD; not used by every BU |
+| Jira | API / MCP | Mechanism TBD |
+| Web Quote | API / MCP | Mechanism TBD |
+| Partner First | Not yet identified | Open |
+| NexChat | Registered APIs / MCP | Mechanism TBD |
+| SharePoint | Not yet identified | Open |
+| Teams | Out of scope for v1: governance for Microsoft collaboration data is unresolved. Requests are visible only where they land in a CIS app or NexChat. | Decision needed |
+
+The technical mechanism per source is still to be determined. The need and the shape of the tie are not.
+
+### First use case: triage duplicate detection
+Spelled out because it is the first thing the database has to do. Proposed flow:
+
+- **Problem:** the same request reaches multiple inboxes and is worked by multiple teams (BRD §2.2).
+- **Constraint today:** IDP stores documents per IDP Code and makes only a spam decision. The BRD (D2) puts deduplication in the hosted pipeline, which has no shared place to look.
+- **Flow:** IDP receives mail and emits an event. The Dev Studio workflow normalizes identifiers (customer, PO number, quote number, thread) and queries the ledger through MCP or an aggregate service. A match links the email to the existing record and its source references (for example, the RC ticket). No match creates a new record. The orchestrator then continues.
+- **Beyond mail:** the same ledger lets a Jira ticket or Web Quote for the same request be recognized as the same request.
+
 ### Two kinds of data, one schema
 The core design point: the DB holds data with different owners and write rules, and they must live together so agents can join across them.
 
@@ -53,10 +80,11 @@ The core design point: the DB holds data with different owners and write rules, 
 
 | Existing store                      | Why it doesn't cover this                                                                                                                                                                                                                                 |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **RC**                              | System of record for tickets. Not designed as an agent-queryable context/config store, and we shouldn't couple agent internals to a ticketing schema owned by another team (RC PO: Lori Thompson).                                                        |
+| **RC**                              | System of record for tickets, and not every BU or request path uses it. Not designed as an agent-queryable context/config store, and we shouldn't couple agent internals to a ticketing schema owned by another team (RC PO: Lori Thompson).                                                        |
+| **Any single source system** (RC, Jira, Web Quote) | Each holds one slice of a request. Making one the hub excludes every request that never touches it. |
 | **IDP storage**                     | Per-IDP-Code document payloads and sidecar metadata. Right for ingestion; scoped to one pipeline, and has no concept of cross-workflow state or business-edited config.                                                                                   |
 | **Per-workflow stores**             | Recreates the silo problem. N workflows → N schemas → pairwise integrations; the orchestrator can't reason across them.                                                                                                                                   |
-| **Agent Bridge schemas** (NDP-5241) | Production precedent for agent data in this ecosystem, but scoped to Agent Bridge (admin catalog, tenants, templates, `DBRG` reseller runtime). Different product, tenancy model, and owner. Useful as a pattern, not a home for sales-orchestrator data. |
+| **Agent Bridge schemas** (NDP-5241) | Production precedent for agent data in this ecosystem, but scoped to Agent Bridge (admin catalog, tenants, templates, `DBRG` reseller runtime). Different product, tenancy model, and owner. Useful as a pattern, not a home for Q2C agent data. |
 | **Prompts / workflow constants**    | Where business logic effectively lives today. Needs a release per change, not auditable by the business, not queryable by other agents.                                                                                                                   |
 
 ## Platform Context (what the internal ecosystem gives us)
@@ -95,7 +123,8 @@ Logical domains:
 
 | Domain | Contents | Writer |
 | --- | --- | --- |
-| `activity_ledger` | Normalized identity of each request or transaction, source (inbox, PO, other channel), customer/identifier keys, linked ticket / quote / order ids, current state | Agents |
+| `activity_ledger` | Canonical record per request or transaction, independent of source system: customer/identifier keys, current state | Agents |
+| `source_refs` | Links each ledger record to its id in every source system (RC ticket, Jira key, Web Quote id, Partner First order, mail thread) | Agents |
 | `decision_log` | Action chosen, category, confidence, path (deterministic / small model / reasoning model / human review), model + prompt version, timestamps | Agents |
 | `correction_log` | Human oversight outcomes linked to decision_log rows | Reviewers → workflow |
 | `guardrails` | Allowed actions per workflow, approval limits, escalation rules, confidence thresholds, effective dates | Business |
@@ -109,6 +138,7 @@ Logical domains:
 ## Requirements the DB must meet
 ---
 - Standardized, versioned schema reviewed jointly by dev and business.
+- Source-agnostic: no request path (RC, Jira, Web Quote, Partner First, mail) is required to go through any one system to be recognized.
 - Clear separation of agent-written vs. business-written tables, with different permissions.
 - Auditability: who/what changed config and when; every agent decision reproducible from logged inputs and versions.
 - Environment parity (DEV/UAT/PROD) and correct Hyve/Disty scoping.
@@ -123,7 +153,8 @@ Logical domains:
 | Curated config becomes a second, ungoverned source of truth alongside prompts | Move taxonomy/thresholds out of prompts entirely; single read path via MCP |
 | Business edits mis-route at scale | Approval + effective-dating + rollback to prior version; shadow/UAT validation |
 | Stale or wrong ledger data poisons later agents | Append-only ledger, provenance on every row, TTL/refresh rules |
-| Scope creep into a general data platform | Keep to sales-orchestrator domains; add domains only with a named consuming workflow |
+| Scope creep into a general data platform | Start with Q2C domains; add others only with a named consuming workflow |
+| Sources with no integration path (Teams, Partner First) leave blind spots in the shared memory | List in-scope sources explicitly; route others through CIS apps or NexChat; report source coverage |
 | PII/customer data accumulation | Store identifiers and decisions, not bodies; follow retention policy |
 | Ownership ambiguity (taxonomy owner is an open BRD question) | Name data owner per domain before first DDL |
 
@@ -138,12 +169,17 @@ Not answered in the Confluence pages I found:
 5. Whether Phase 2 workflows (PO→Quote) will live in the same Dev Studio project as Auto Triage or separate projects sharing the schema.
 6. Access model: can sub-agents and the orchestrator read via an MCP tool backed by an aggregate service, or is direct connection expected?
 7. Data retention rules for the ledger and decision log.
+8. Integration mechanism per source (API, MCP, events, or data replication), and who owns each connection.
+9. Partner First: how do requests that originate there become visible to the platform?
+10. Teams: confirm it is out of scope for v1 and which entry point (NexChat, CIS apps) covers those requests.
+11. One orchestrator per BU on a shared schema, or one organization-wide agent? Determines tenancy and scoping.
 
 ## Next Steps
 ---
 - [ ] Confirm provisioning path and approvers with Dev Studio / DBA contacts (Q1 above).
 - [ ] Walk Agent Bridge's DDL structure (NDP-5241) with its DP owner as a template.
-- [ ] Workshop with business (sales ops) to list curated entities and name owners.
+- [ ] Inventory the sources each BU's Q2C requests touch, and pick an integration mechanism for each.
+- [ ] Workshop with Q2C process owners across BUs to list curated entities and name owners.
 - [ ] Draft v0 table definitions for `activity_ledger` and `decision_log` (the agent-written domains every workflow needs first: dedup, shared context, measurement).
 - [ ] Decide curation UI approach.
 - [ ] Update the diagram to show logic-controlled vs. business-curated writers.
@@ -161,20 +197,6 @@ Not answered in the Confluence pages I found:
 | 002 Event driven architecture - Database Decision | 240338470 | Decision-rule-managed tables precedent |
 | MCP server for api-management | 705296321 | DB ownership / dependency discovery |
 | Quick Start: new Dev Studio Component skill | 771984648 | Extending Dev Studio artifact types |
-
-
-## @Ann Comments
-
-> Thanks Zak, great work and a comprehensive document.  There are a couple of things not considered though.  1) Not everything is "sales".  Your initial statement says a single sales agent.  Think larger towards an organization agent.  2) Not everything goes through Request Central.  A common db won't solve for things that go to Jira, come through Teams or Partner First - where is the initial tie for "intelligence" around their request and collection from all sources.  If you are solving for TRIAGE of email, then be explicit for this to recognize duplicates and for those that run through IDP/Dev studio?
-
-Thanks for the feedback. Some responses below:
-- I think my goal is to have a broader agent for Q2C process. So the _"Sales"_ in my initial statement is now revised.
-- Right - and request central should is not the tool that each BU will be using either. The goal is more to integrate the end-product portions of CIS and external applications like:
-	- Request Central
-	- Web Quote
-	- Jira 
-	- etc.
-	into a single data platform for each BUs orchestrator. This way, all sources can be called upon. The best way to technically do this is yet to be determined, however, at a high level - the need is there. I don't see anything within the Microsoft ecosystem except Outlook and maybe Sharepoint existing within this database - the governance and controls around that are quicksand for progress and IMO can be mitigated through other common platforms (i.e. NexChat, APIs, CIS applications, etc.)
-- I think the framing in this document is heavy towards the triage-side. However, the goal is a broader data platform for autonomous Q2C functionality - which I believe to be a prerequisite to having true autonomous distribution.
-
-
+| Nexchat 101 | 578532945 | NexChat as the approved CIS agent platform |
+| Partner First as a Channel | 693472139 | Partner First as a partner-facing channel |
+| NDP-7397 Process Mining Q2C POC | 761919221 | Existing Q2C visibility effort (Quote → Order → Ship → Invoice), possible overlap to check |
