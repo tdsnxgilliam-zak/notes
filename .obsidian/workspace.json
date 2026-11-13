@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -243,6 +243,8 @@
   },
   "active": "87e4dee621e59cc9",
   "lastOpenFiles": [
+    "3-share/cset/001-database-spec-visualization.pdf",
+    "3-share/cset",
     "1-write/daily/11-09-2026/11-13-2026.md",
     "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
@@ -270,7 +272,6 @@
     "1-write/fde/01-siq-first-proj/res/FDE Session 3 Framing the Capstone Problem.pptx",
     "1-write/fde/01-siq-first-proj/res/FDE Session 3 Business Case Brief Template.docx",
     "1-write/fde/01-siq-first-proj/res/FDE Session 3 Capstone Discovery Tracker.xlsx",
-    "1-write/fde/01-siq-first-proj/res",
     "1-write/fde/01-siq-first-proj/problem-definition/002-capturing-micro-smb.md",
     "1-write/fde/01-siq-first-proj/meetings/002-sigma-iq-03.md",
     "1-write/CSET/v2/v2-goals.md",
@@ -279,7 +280,6 @@
     "1-write/daily/11-09-2026/11-09-2026.md",
     "4-configure/calendar/daily-note-template.md",
     "1-write/daily/11-02-2026/11-06-2026.md",
-    "1-write/fde/01-siq-first-proj/intake/002-reyna-intake-planning.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
