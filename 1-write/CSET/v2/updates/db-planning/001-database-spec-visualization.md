@@ -5,7 +5,7 @@ tags:
 FY: "27"
 quarter: Q1
 ---
-
+![[001-intake-operating-model-notes 2026-11-11 14.24.21.excalidraw]]
 ## Use Case Justification
 ---
 
@@ -161,3 +161,20 @@ Not answered in the Confluence pages I found:
 | 002 Event driven architecture - Database Decision | 240338470 | Decision-rule-managed tables precedent |
 | MCP server for api-management | 705296321 | DB ownership / dependency discovery |
 | Quick Start: new Dev Studio Component skill | 771984648 | Extending Dev Studio artifact types |
+
+
+## @Ann Comments
+
+> Thanks Zak, great work and a comprehensive document.  There are a couple of things not considered though.  1) Not everything is "sales".  Your initial statement says a single sales agent.  Think larger towards an organization agent.  2) Not everything goes through Request Central.  A common db won't solve for things that go to Jira, come through Teams or Partner First - where is the initial tie for "intelligence" around their request and collection from all sources.  If you are solving for TRIAGE of email, then be explicit for this to recognize duplicates and for those that run through IDP/Dev studio?
+
+Thanks for the feedback. Some responses below:
+- I think my goal is to have a broader agent for Q2C process. So the _"Sales"_ in my initial statement is now revised.
+- Right - and request central should is not the tool that each BU will be using either. The goal is more to integrate the end-product portions of CIS and external applications like:
+	- Request Central
+	- Web Quote
+	- Jira 
+	- etc.
+	into a single data platform for each BUs orchestrator. This way, all sources can be called upon. The best way to technically do this is yet to be determined, however, at a high level - the need is there. I don't see anything within the Microsoft ecosystem except Outlook and maybe Sharepoint existing within this database - the governance and controls around that are quicksand for progress and IMO can be mitigated through other common platforms (i.e. NexChat, APIs, CIS applications, etc.)
+- I think the framing in this document is heavy towards the triage-side. However, the goal is a broader data platform for autonomous Q2C functionality - which I believe to be a prerequisite to having true autonomous distribution.
+
+

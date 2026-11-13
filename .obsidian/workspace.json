@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -243,12 +244,13 @@
   },
   "active": "87e4dee621e59cc9",
   "lastOpenFiles": [
+    "1-write/fde/operating_model/001-intake-operating-model-notes 2026-11-11 14.24.21.excalidraw.md",
+    "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
+    "1-write/daily/11-09-2026/11-12-2026.md",
     "3-share/cset/001-database-spec-visualization.pdf",
     "3-share/cset",
     "1-write/daily/11-09-2026/11-13-2026.md",
     "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
-    "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
-    "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/fde/01-siq-first-proj/problem-definition/003-slide-7-problem-definition.md",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization 2026-11-12 14.55.24.excalidraw.md",
     "1-write/CSET/v2/data-planning/002-update-agent-search-data.md",
@@ -263,7 +265,6 @@
     "1-write/fde/operating_model/002-operating-model-planning.md",
     "1-write/fde/operating_model/001-intake-operating-model-notes.md",
     "1-write/fde/01-siq-first-proj/res/~$FDE Session 3 Capstone Discovery Tracker.xlsx",
-    "1-write/fde/operating_model/001-intake-operating-model-notes 2026-11-11 14.24.21.excalidraw.md",
     "1-write/fde/operating_model/Pasted image 20261111135505.png",
     "1-write/fde/01-siq-first-proj/problem-definition/001-initial-value-calculation.md",
     "1-write/fde/01-siq-first-proj/res/~$E Session 3 Business Case Brief Template.docx",
@@ -271,7 +272,6 @@
     "1-write/fde/01-siq-first-proj/res/FDE Session 3 SME Shadowing Guide.docx",
     "1-write/fde/01-siq-first-proj/res/FDE Session 3 Framing the Capstone Problem.pptx",
     "1-write/fde/01-siq-first-proj/res/FDE Session 3 Business Case Brief Template.docx",
-    "1-write/fde/01-siq-first-proj/res/FDE Session 3 Capstone Discovery Tracker.xlsx",
     "1-write/fde/01-siq-first-proj/problem-definition/002-capturing-micro-smb.md",
     "1-write/fde/01-siq-first-proj/meetings/002-sigma-iq-03.md",
     "1-write/CSET/v2/v2-goals.md",
