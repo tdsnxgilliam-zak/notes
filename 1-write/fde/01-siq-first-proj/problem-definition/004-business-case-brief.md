@@ -42,8 +42,6 @@ We choose not to serve these customers.
 
 Business owners // Office managers
 
-Sales organi
-
 ## 4. Users and SMEs
 
 *Who will use v1, and which SMEs the pod will shadow first.*
