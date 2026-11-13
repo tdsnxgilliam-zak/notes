@@ -7,18 +7,18 @@ tags:
 > **Session 3 · Capstone Problem**
 > One page that turns your president's priority into a problem your pod can ship against. Draft it after Session 3, review it with your pod/facilitators, then send it to your sponsor to confirm (if possible, by Friday, Nov 13; if not, by Friday Nov 20).
 
-| | |
-|---|---|
-| **Pod (Region)** | NA |
-| **Pod Lead** | Nate, Jonathan |
-| **Sponsor** | Reyna |
+|                    |                 |
+| ------------------ | --------------- |
+| **Pod (Region)**   | NA              |
+| **Pod Lead**       | Nate, Jonathan  |
+| **Sponsor**        | Reyna           |
 | **Version / Date** | V1 · 11-11-2026 |
 
 ## Problem Statement 
 
-Micro-SMB Customers aren't being served today because serving their small IT spend is uneconomical for distributors, which costs us today because as a group they make up ~$21B of capturable IT spend.
+Micro-SMB Customers aren't being served today because serving their small IT spend is uneconomical for distributors, which costs us today because as a group they make up ~$21B of capturable IT spend. By lowering cost-to-serve in our traditional Q2C workflows we can make serving these customers economical and capture this new market.
 
-Success by January looks like \_______________________
+Success by January looks like: 
 
 ---
 
@@ -34,18 +34,22 @@ Success by January looks like \_______________________
 
 Micro-SMB customers choose retail over distribution.
 
+We choose not to serve these customers.
+
 ## 3. Decision maker
 
 *One named role who makes this decision today, and how often.*
 
 Business owners // Office managers
 
+Sales organi
+
 ## 4. Users and SMEs
 
 *Who will use v1, and which SMEs the pod will shadow first.*
 
 1. First shadow: the people who handle exceptions in the digitally led sale (PartnerFirst).
-	- Nate's account of the QBR says the digitally led sale is aimed at many small customers, with "very few salespeople" and a low cost to serve.
+	- @Nate's account of the QBR says the digitally led sale is aimed at many small customers, with "very few salespeople" and a low cost to serve.
 	- It names three gaps PartnerFirst can't handle: converting backorders to sales orders, customers negotiating the displayed price, and proactive notifications when an order slips.
 2. Second shadow: the sales-support team doing the transactional work.
 	- Integration into the traditional sales organization
@@ -64,10 +68,10 @@ Business owners // Office managers
 ## 6. Success measure
 
 | Success measure | Baseline today | January target | Source |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+| --------------- | -------------- | -------------- | ------ |
+|                 |                |                |        |
+|                 |                |                |        |
+|                 |                |                |        |
 
 Annual value range from the Session 2 worksheet: **Low** $______M · **Likely** $______M · **High** $______M
 
@@ -76,10 +80,10 @@ Annual value range from the Session 2 worksheet: **Low** $______M · **Likely** 
 > This will be the most important part
 
 | In scope for v1 | Explicitly out of scope |
-|---|---|
-| | |
-| | |
-| | |
+| --------------- | ----------------------- |
+|                 |                         |
+|                 |                         |
+|                 |                         |
 
 ## 8. Constraints
 
