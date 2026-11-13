@@ -1,3 +1,10 @@
+---
+tags:
+  - cisco
+  - email-triage
+FY: "27"
+quarter: Q1
+---
 
 ## Overview
 ---
@@ -15,3 +22,4 @@ Agent A can call from previously processed data from Agent B to give more contex
 
 
 ![[001-database-spec-visualization 2026-11-12 14.55.24.excalidraw]]
+
