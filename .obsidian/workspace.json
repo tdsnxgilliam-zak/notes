@@ -89,8 +89,7 @@
               "title": "11-12-2026"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,11 +294,11 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "2f56bd6357433a39",
+  "active": "a47624fa89b626f5",
   "lastOpenFiles": [
+    "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization 2026-11-12 14.55.24.excalidraw.md",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
-    "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/CSET/v2/updates/db-planning",
     "1-write/CSET/v2/updates",
     "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
