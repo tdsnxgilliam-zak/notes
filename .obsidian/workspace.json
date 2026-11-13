@@ -35,8 +35,7 @@
               "title": "001-database-spec-visualization"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,10 +241,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "87e4dee621e59cc9",
+  "active": "4c2bbe33bb5e42dc",
   "lastOpenFiles": [
-    "1-write/daily/11-09-2026/11-13-2026.md",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
+    "1-write/daily/11-09-2026/11-13-2026.md",
     "1-write/fde/operating_model/001-intake-operating-model-notes 2026-11-11 14.24.21.excalidraw.md",
     "1-write/daily/11-09-2026/11-12-2026.md",
     "3-share/cset/001-database-spec-visualization.pdf",
