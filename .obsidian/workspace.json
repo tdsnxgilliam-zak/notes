@@ -62,7 +62,7 @@
       {
         "id": "80ccd4906b5d240f",
         "type": "tabs",
-        "dimension": 42.82560706401766,
+        "dimension": 39.57219251336899,
         "children": [
           {
             "id": "59fa5a7f9af2f8ac",
@@ -114,7 +114,7 @@
       {
         "id": "8539c2149a0a2733",
         "type": "tabs",
-        "dimension": 25.01839587932303,
+        "dimension": 33.903743315508024,
         "children": [
           {
             "id": "a3182ccde5243a20",
@@ -141,7 +141,7 @@
       {
         "id": "db10d1fb91e2b3b0",
         "type": "tabs",
-        "dimension": 32.15599705665931,
+        "dimension": 26.524064171122998,
         "children": [
           {
             "id": "0a71141301c04832",
@@ -255,7 +255,7 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "4e9a00619e7f4d83",
+  "active": "a3182ccde5243a20",
   "lastOpenFiles": [
     "1-write/daily/11-16-2026/11-16-2026.md",
     "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
