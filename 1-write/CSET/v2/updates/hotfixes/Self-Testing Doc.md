@@ -20,13 +20,3 @@ Now, it will create a new action so the business has visibility into the new ema
 New Action when Closed:
 ![[Pasted image 20261117151226.png]]
 
-## Reseller Contact
----
-Reseller contact was not being applied to requests.
-
-Using the `request.Owner` field, request owners are now being added. The fallback is the application account.
-
-**Evidence**:
-
-
-9367784
