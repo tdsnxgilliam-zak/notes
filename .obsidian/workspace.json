@@ -173,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334
+    "width": 334,
+    "collapsed": true
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -189,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-write/fde/01-siq-first-proj/005-quick-discussion-nate.md",
+                "file": "1-write/daily/11-16-2026/11-18-2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
