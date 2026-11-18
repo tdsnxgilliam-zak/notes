@@ -174,7 +174,7 @@ sequenceDiagram
     ASM->>FA: applyNoResellerNedrvw(payload)
     FA-->>ASM: noReseller = true when reseller.custNo is missing or 0
     ASM->>BLD: assembled payload
-    BLD->>BLD: merge over rcCreateTemplate; delete template reseller placeholder if none
+    BLD->>BLD: merge over rcCreateTemplate, delete template reseller placeholder if none
     BLD->>RC: POST create
 ```
 

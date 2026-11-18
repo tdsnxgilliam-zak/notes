@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/CSET/v2/other-docs/reseller-n-contact.md",
+                "file": "1-write/daily/11-16-2026/11-18-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "reseller-n-contact"
+              "title": "11-18-2026"
             }
           },
           {
@@ -257,8 +257,8 @@
   },
   "active": "87e4dee621e59cc9",
   "lastOpenFiles": [
-    "1-write/daily/11-16-2026/11-18-2026.md",
     "1-write/CSET/v2/other-docs/reseller-n-contact.md",
+    "1-write/daily/11-16-2026/11-18-2026.md",
     "1-write/daily/11-16-2026/11-17-2026.md",
     "1-write/daily/11-09-2026/11-12-2026.md",
     "1-write/CSET/v2/updates/hotfixes/Self-Testing Doc.md",
