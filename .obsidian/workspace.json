@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -255,10 +255,10 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "8e53766ea82606cf",
+  "active": "87e4dee621e59cc9",
   "lastOpenFiles": [
-    "1-write/daily/11-16-2026/11-19-2026.md",
     "1-write/CSET/v2/updates/hotfixes/self-test-v2.md",
+    "1-write/daily/11-16-2026/11-19-2026.md",
     "1-write/daily/11-16-2026/11-16-2026.md",
     "1-write/daily/11-16-2026/11-17-2026.md",
     "1-write/daily/11-16-2026/11-18-2026.md",
