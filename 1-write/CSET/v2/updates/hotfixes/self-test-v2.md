@@ -16,17 +16,21 @@ Follow-up on a request whose only action is `COMP`
 
 One open matching action plus one `COMP`, which should be Case A, not C. Two matching open actions, which should go to Review. Re-entering after an uncertain add-service response
 
+This is confirmed behavior as well.
+
 **What to check**
 
 `terminal_action` / `aligned` / `multiple_matching_open_actions`. **Only one new service. Notes go on the new action.**
 
 **Screenshots**
 
-<!-- Paste screenshots here in Obsidian. -->
+![[Pasted image 20261119115019.png]]
+> Happy path successful
+
 
 **Description**
 
-<!-- Record the scenario, observed result, and any discrepancy. -->
+Completed an action, then sent a new message under the same action. This created a new actoin as expected.
 
 ### 2. Keep assignee
 
@@ -36,19 +40,27 @@ Status update on an action assigned to a named user
 
 **Edge cases**
 
-Action with no `userId` on its active status row
+Action with `userId` already with Application Account on its active status row
 
 **What to check**
 
 **Assignee doesn't change.** `operatorSource=specifiedOperator` on the happy path, `current_user_fallback` on the edge case with no error
 
 **Screenshots**
+![[Pasted image 20261119120905.png]]
+> Successful retainment of original assigned user
 
-<!-- Paste screenshots here in Obsidian. -->
+
+![[Screenshot 2026-11-19 at 12.08.28 PM.png]]
+> Edge case performs as expected - requests are not assigned without a user.
 
 **Description**
 
-<!-- Record the scenario, observed result, and any discrepancy. -->
+Sent an email, which automatically assigned it to Application Account (expected).
+
+Set the status to `WORK` which assigned it to my account.
+
+Sent another email - AI updated action - retained my account being assigned.
 
 ### 3. Needs Review notes
 
@@ -65,12 +77,14 @@ Review for another reason, such as several matching open actions
 **First case gets the "could not confidently determine…" text.** Second keeps `Needs review: <reason>`
 
 **Screenshots**
-
-<!-- Paste screenshots here in Obsidian. -->
+![[Screenshot 2026-11-19 at 12.12.15 PM.png]]
+> Invalid brand successfully returns more informative notes
 
 **Description**
 
-<!-- Record the scenario, observed result, and any discrepancy. -->
+A vague email was sent and the model could not determine request brand.
+
+Moved to "Needs Review" (expected) - appended a message with actionable next steps and a summary
 
 ### 4. Filenames over 200 characters
 
@@ -92,7 +106,7 @@ Name of exactly 200 characters. Extension longer than 20 characters. No extensio
 
 **Description**
 
-<!-- Record the scenario, observed result, and any discrepancy. -->
+<!-- Record the scenario, observed result, and any discrepancy. -→
 
 ### 5. Reseller + owner
 
