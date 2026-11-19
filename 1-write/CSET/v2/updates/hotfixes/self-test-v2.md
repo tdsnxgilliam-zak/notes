@@ -89,18 +89,23 @@ Moved to "Needs Review" (expected) - appended a message with actionable next ste
 
 Forwarded mail from a known reseller contact's exact email
 
+**Edge Case**
+Someone not in MDM sends a new email
+
 **What to check**
 
 **reseller, owner and `specifiedActionCreator` are set** in the create payload
 
-*a*Screenshots**
+**Screenshots**
 
-<!-- Paste screenshots here in Obsidian. -->
+![[Screenshot 2026-11-19 at 12.43.36 PM.png]]
+> Reseller and reseller contact are named
 
 **Description**
 
-<!-- Record the scenario, observed result, and any discrepancy. -->
+Reseller and reseller contact are in the email
 
+If they are not in MDM - the behavior is: 
 ### 5. One RC search per run
 
 **Happy path**
@@ -117,12 +122,17 @@ No match: create path, ≤9 searches, nothing searched before the POST. Ambiguou
 
 **Screenshots**
 
-<!-- Paste screenshots here in Obsidian. -->
+![[Screenshot 2026-11-19 at 12.46.33 PM.png]]
+> Unique found - only 1 search occured
+
+![[Screenshot 2026-11-19 at 12.47.35 PM.png]]
+> No request found - only 2 searches
 
 **Description**
 
-<!-- Record the scenario, observed result, and any discrepancy. -->
+If a request is found it typically only takes 1 search.
 
+If a request isn't found it is typically only 2 searches - however, in the most extreme case, can be 9 (not all by `requestName` - by `requestId` or `orderNo`).
 
 ## Before handing off
 
