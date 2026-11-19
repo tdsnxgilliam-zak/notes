@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/daily/11-16-2026/11-18-2026.md",
+                "file": "1-write/daily/11-16-2026/11-19-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-18-2026"
+              "title": "11-19-2026"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/CSET/v2/updates/hotfixes/Self-Testing Doc.md",
+                "file": "1-write/daily/11-16-2026/11-16-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-Testing Doc"
+              "title": "11-16-2026"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334,
-    "collapsed": true
+    "width": 334
   },
   "right": {
     "id": "b976ac93fcbecb71",
@@ -256,13 +255,15 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "87e4dee621e59cc9",
+  "active": "8e53766ea82606cf",
   "lastOpenFiles": [
-    "1-write/CSET/v2/other-docs/reseller-n-contact.md",
-    "1-write/daily/11-16-2026/11-18-2026.md",
     "1-write/daily/11-16-2026/11-17-2026.md",
-    "1-write/daily/11-09-2026/11-12-2026.md",
+    "1-write/daily/11-16-2026/11-19-2026.md",
+    "1-write/daily/11-16-2026/11-18-2026.md",
     "1-write/CSET/v2/updates/hotfixes/Self-Testing Doc.md",
+    "1-write/daily/11-16-2026/11-16-2026.md",
+    "1-write/CSET/v2/other-docs/reseller-n-contact.md",
+    "1-write/daily/11-09-2026/11-12-2026.md",
     "3-share/cset/Self-Testing Doc.pdf",
     "1-write/CSET/v2/updates/hotfixes/dump.md",
     "1-write/CSET/v2/updates/hotfixes/Pasted image 20261117161608.png",
@@ -272,7 +273,6 @@
     "1-write/CSET/v2/updates/hotfixes/Pasted image 20261117150827.png",
     "1-write/CSET/v2/updates/hotfixes",
     "1-write/CSET/v2/updates/db-planning/001-database-spec-visualization.md",
-    "1-write/daily/11-16-2026/11-16-2026.md",
     "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
     "1-write/daily/11-09-2026/11-13-2026.md",
     "1-write/daily/11-16-2026",
@@ -299,7 +299,6 @@
     "1-write/fde/01-siq-first-proj/intake/006-post-reyna-intake-planning.md",
     "1-write/fde/01-siq-first-proj/problem-definition/002-capturing-micro-smb.md",
     "1-write/fde/01-siq-first-proj/meetings/002-sigma-iq-03.md",
-    "1-write/CSET/v2/v2-goals.md",
     "bais/Pasted image 20260406144103.png",
     "bais/Pasted image 20260406143442.png",
     "bais/Pasted image 20260406143155.png",
