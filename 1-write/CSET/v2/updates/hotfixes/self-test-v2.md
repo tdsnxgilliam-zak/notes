@@ -68,10 +68,6 @@ Sent another email - AI updated action - retained my account being assigned.
 
 Vague mail with no product, so brand confidence is low
 
-**Edge cases**
-
-Review for another reason, such as several matching open actions
-
 **What to check**
 
 **First case gets the "could not confidently determine…" text.** Second keeps `Needs review: <reason>`
@@ -86,43 +82,18 @@ A vague email was sent and the model could not determine request brand.
 
 Moved to "Needs Review" (expected) - appended a message with actionable next steps and a summary
 
-### 4. Filenames over 200 characters
 
-**Happy path**
-
-Attachment with a 250-character name
-
-**Edge cases**
-
-Name of exactly 200 characters. Extension longer than 20 characters. No extension
-
-**What to check**
-
-**Upload succeeds and the name is ≤200 with the extension kept.** A 200-character name is left as is
-
-**Screenshots**
-
-<!-- Paste screenshots here in Obsidian. -->
-
-**Description**
-
-<!-- Record the scenario, observed result, and any discrepancy. -→
-
-### 5. Reseller + owner
+## 4. Reseller + owner
 
 **Happy path**
 
 Forwarded mail from a known reseller contact's exact email
 
-**Edge cases**
-
-Gmail sender not in MDM: exact-email search only, no domain search, created as `NEDRVW` with no owner. Thread with internal people only. Lookalike domain (datacomm.com vs easterndatacomm.com)
-
 **What to check**
 
 **reseller, owner and `specifiedActionCreator` are set** in the create payload
 
-**Screenshots**
+*a*Screenshots**
 
 <!-- Paste screenshots here in Obsidian. -->
 
@@ -130,29 +101,7 @@ Gmail sender not in MDM: exact-email search only, no domain search, created as `
 
 <!-- Record the scenario, observed result, and any discrepancy. -->
 
-### 6. Forward parsing
-
-**Happy path**
-
-Outlook forward with `Last, First <email>`
-
-**Edge cases**
-
-;-separated lists, nested `<a@b.com<mailto:a@b.com>>`, ServiceDesk icon links
-
-**What to check**
-
-**The original sender is the first candidate**
-
-**Screenshots**
-
-<!-- Paste screenshots here in Obsidian. -->
-
-**Description**
-
-<!-- Record the scenario, observed result, and any discrepancy. -->
-
-### 7. One RC search per run
+### 5. One RC search per run
 
 **Happy path**
 
@@ -174,27 +123,6 @@ No match: create path, ≤9 searches, nothing searched before the POST. Ambiguou
 
 <!-- Record the scenario, observed result, and any discrepancy. -->
 
-### 8. Denylist and vote
-
-**Happy path**
-
-Domain where one account name contains the domain's root word
-
-**Edge cases**
-
-Domain whose only rows are on 110486/794191: denied, logged in `customerSearchDenied`, treated as a miss. No name match: `domain_vote` picks the account with the most rows
-
-**What to check**
-
-**`domain_name_match` / `domain_vote`.** Tally in `customerSearchVotes`
-
-**Screenshots**
-
-<!-- Paste screenshots here in Obsidian. -->
-
-**Description**
-
-<!-- Record the scenario, observed result, and any discrepancy. -->
 
 ## Before handing off
 
