@@ -1,8 +1,4 @@
-# Hotfix self-test plan
-
-Neither plan has been run yet. Both are drafted from the report.
-
-## Self-test in UAT with logs
+## Self-test in UAT
 
 ### 1. Closed action gets a new action (Case C)
 
@@ -11,12 +7,6 @@ Neither plan has been run yet. Both are drafted from the report.
 **Happy path**
 
 Follow-up on a request whose only action is `COMP`
-
-**Edge cases**
-
-One open matching action plus one `COMP`, which should be Case A, not C. Two matching open actions, which should go to Review. Re-entering after an uncertain add-service response
-
-This is confirmed behavior as well.
 
 **What to check**
 
@@ -94,12 +84,14 @@ Someone not in MDM sends a new email
 
 **What to check**
 
-**reseller, owner and `specifiedActionCreator` are set** in the create payload
+**reseller and owner are set** in the create payload
 
 **Screenshots**
 
 ![[Screenshot 2026-11-19 at 12.43.36 PM.png]]
 > Reseller and reseller contact are named
+![[Screenshot 2026-11-19 at 1.26.30 PM.png]]
+> If they don't exist, they get attached by name/email
 
 **Description**
 
