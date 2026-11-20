@@ -18,7 +18,7 @@ tags:
 
 Micro-SMB Customers aren't being served today because serving their small IT spend is uneconomical for distributors, which costs us today because as a group they make up ~$21B of capturable IT spend. By lowering cost-to-serve in our traditional Q2C workflows we can make serving these customers economical and capture this new market.
 
-Success by January looks like: 
+Success by January looks like: Mostly specified areas for development including their primary components, requirements in the full surrounding ecosystem, and where we can possibly include pre-existing logic.
 
 ---
 
@@ -34,7 +34,7 @@ Success by January looks like:
 
 Micro-SMB customers choose retail over distribution.
 
-We choose not to serve these customers.
+Resellers find this market uneconomical to serve.
 
 ## 3. Decision maker
 
@@ -54,8 +54,6 @@ Business owners // Office managers
 	- Names not known atm
 3. Decision-owner conversations (not shadowing): @Jonathan and @Dara's venture team.
 - They own the profit pool and the demand side, and @Jonathan sequences the work as demand, then digital experience, then the rail, then vendor decision right. Also talk to @Cam_Fuller
-
-
 
 ## 5. Current state
 
