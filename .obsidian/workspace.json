@@ -34,21 +34,8 @@
               "icon": "lucide-file",
               "title": "004-business-case-brief"
             }
-          },
-          {
-            "id": "5664e0e2ce281bb6",
-            "type": "leaf",
-            "state": {
-              "type": "word-reader-view",
-              "state": {
-                "file": "0-read/fde/micro-smb/Digital_IT_Guy_MVP_Technical_Architecture.docx"
-              },
-              "icon": "file-text",
-              "title": "Digital_IT_Guy_MVP_Technical_Architecture.docx"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,11 +240,11 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "5664e0e2ce281bb6",
+  "active": "4c2bbe33bb5e42dc",
   "lastOpenFiles": [
     "1-write/fde/01-siq-first-proj/problem-definition/004-business-case-brief.md",
-    "0-read/fde/micro-smb/Digital IT Guy My CTO Various Slides.pptx",
     "0-read/fde/micro-smb/Digital_IT_Guy_MVP_Technical_Architecture.docx",
+    "0-read/fde/micro-smb/Digital IT Guy My CTO Various Slides.pptx",
     "0-read/fde/micro-smb/Digital IT Guy - SMB Personas v0.1.pptx",
     "0-read/fde/micro-smb",
     "1-write/daily/11-16-2026/11-20-2026.md",
