@@ -117,8 +117,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ]
@@ -236,8 +236,7 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "webpage-html-export:Export as HTML": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "4c2bbe33bb5e42dc",
