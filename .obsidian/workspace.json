@@ -153,8 +153,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -174,7 +173,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-write/daily/11-23-2026/11-24-2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +237,7 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "4c2bbe33bb5e42dc",
+  "active": "0a71141301c04832",
   "lastOpenFiles": [
     "1-write/daily/11-23-2026/11-24-2026.md",
     "1-write/daily/11-23-2026",
