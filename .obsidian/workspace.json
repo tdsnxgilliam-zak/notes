@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-write/daily/11-23-2026/11-24-2026.md",
+                "file": "1-write/daily/11-23-2026/11-25-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-24-2026"
+              "title": "11-25-2026"
             }
           },
           {
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-write/daily/11-09-2026/11-12-2026.md",
+                "file": "1-write/daily/11-23-2026/11-25-2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,6 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-write/daily/11-23-2026/11-25-2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,8 +238,11 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "0a71141301c04832",
+  "active": "4c2bbe33bb5e42dc",
   "lastOpenFiles": [
+    "1-write/daily/11-16-2026/11-18-2026.md",
+    "1-write/daily/11-16-2026/11-17-2026.md",
+    "1-write/daily/11-23-2026/11-25-2026.md",
     "1-write/daily/11-23-2026/11-24-2026.md",
     "1-write/daily/11-23-2026",
     "1-write/daily/11-16-2026/11-20-2026.md",
@@ -267,8 +271,6 @@
     "1-write/CSET/v2/updates/hotfixes/Screenshot 2026-11-19 at 12.47.35 PM.png",
     "1-write/CSET/v2/updates/hotfixes/Screenshot 2026-11-19 at 12.46.33 PM.png",
     "1-write/CSET/v2/updates/hotfixes/Screenshot 2026-11-19 at 12.45.48 PM.png",
-    "1-write/daily/11-16-2026/11-17-2026.md",
-    "1-write/daily/11-16-2026/11-18-2026.md",
     "1-write/CSET/v2/other-docs/reseller-n-contact.md",
     "1-write/daily/11-09-2026/11-12-2026.md",
     "3-share/cset/Self-Testing Doc.pdf",
@@ -284,7 +286,6 @@
     "1-write/daily/11-09-2026/11-11-2026.md",
     "1-write/fde/01-siq-first-proj/meetings/001-quick-discussion-nate.md",
     "1-write/fde/res/styles/presentation-style.md",
-    "1-write/CSET/v2/other-docs/business-search.md",
     "Boost Report.canvas",
     "Untitled.canvas",
     "school-26-s1/db/Untitled.canvas"
